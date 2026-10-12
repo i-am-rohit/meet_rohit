@@ -1,0 +1,4762 @@
+{
+  "version": "1.0",
+  "title": "Rohit Gusain — Portfolio AI Chatbot Knowledge Base",
+  "edition": "Verified Profile Edition",
+  "profile": "Rohit Gusain",
+  "status": "Major professional and personal profile verified; selected technical details and research metadata remain unverified.",
+  "totalQuestions": 240,
+  "profileFacts": {
+    "fullName": "Rohit Gusain",
+    "dob": "28 October 1996",
+    "ageAsOf": "29 years old as of 12 October 2026",
+    "hometown": "Pauri Garhwal, Uttarakhand",
+    "bornIn": "Delhi, India",
+    "grewUpIn": "Delhi",
+    "livesIn": "Delhi, India",
+    "nationality": "Indian",
+    "languages": [
+      "English",
+      "Hindi",
+      "Garhwali"
+    ],
+    "experienceYears": "approximately 6",
+    "title": "Programme Manager – AI & Digital Transformation",
+    "company": "VLCC Healthcare Limited",
+    "studio": "Engineering Thing AI",
+    "studioUrl": "https://engineeringthing.in/",
+    "website": "https://meetrohit.in/",
+    "email": "jhurohit@gmail.com",
+    "phones": [
+      "+91 81304 64346",
+      "+91 99903 03070"
+    ],
+    "whatsapp": "+91 81304 64346",
+    "linkedin": "https://www.linkedin.com/in/rohit-gusain-4aa831142/",
+    "github": "https://github.com/i-am-rohit",
+    "careerGoal": "AI Architect",
+    "teamSizeManaged": 25,
+    "education": {
+      "mtech": "M.Tech · Artificial Intelligence · NIET, Greater Noida · 84% · completed 2022",
+      "btech": "B.Tech · Electronics and Communication · Jamia Hamdard · 70% · 2015–2019"
+    }
+  },
+  "rules": [
+    "Answer questions about Rohit using the verified information in this knowledge base.",
+    "Keep responses professional, natural, concise, and conversational.",
+    "Understand different phrasings of the same question.",
+    "Maintain context across follow-up questions.",
+    "Never invent professional achievements, project metrics, or personal details.",
+    "Distinguish hands-on implementation, production experience, pilot implementations, and conceptual knowledge.",
+    "Describe Geonexis's Whisper/Ollama/Qwen/Llama system as a pilot.",
+    "Treat SWISS's 90–95% accuracy and Power BI's approximately 40% reporting reduction as estimates.",
+    "Do not claim production RAG or Agentic AI experience without verification.",
+    "The COVID-19 paper is the Springer chapter Covid Analysis Using Machine Learning Technique: https://link.springer.com/chapter/10.1007/978-981-19-7402-1_26. Do not claim any other Springer publication.",
+    "Do not mention the Shadon project unless explicitly asked.",
+    "Do not reveal private financial, health, family, or residential details beyond what is listed.",
+    "For consulting and business inquiries, direct visitors to meetrohit.in, LinkedIn, or jhurohit@gmail.com.",
+    "If information is unavailable, state that it has not been confirmed instead of guessing."
+  ],
+  "entries": [
+    {
+      "id": 1,
+      "section": "About Me & Introduction",
+      "question": "Who is Rohit Gusain?",
+      "answer": "Rohit Gusain is an AI and Digital Transformation professional with approximately 6 years of experience in AI/ML, Computer Vision, NLP, enterprise analytics, and programme management.",
+      "keywords": [
+        "ai/ml",
+        "analytics",
+        "approximately",
+        "computer",
+        "digital",
+        "enterprise",
+        "experience",
+        "nlp",
+        "professional",
+        "transformation",
+        "vision",
+        "years"
+      ]
+    },
+    {
+      "id": 2,
+      "section": "About Me & Introduction",
+      "question": "What does Rohit currently do?",
+      "answer": "He works as Programme Manager – AI & Digital Transformation at VLCC Healthcare Limited.",
+      "keywords": [
+        "currently",
+        "digital",
+        "healthcare",
+        "limited.",
+        "manager",
+        "programme",
+        "transformation",
+        "vlcc",
+        "works"
+      ]
+    },
+    {
+      "id": 3,
+      "section": "About Me & Introduction",
+      "question": "How many years of professional experience does Rohit have?",
+      "answer": "Approximately 6 years.",
+      "keywords": [
+        "approximately",
+        "experience",
+        "many",
+        "professional",
+        "years",
+        "years."
+      ]
+    },
+    {
+      "id": 4,
+      "section": "About Me & Introduction",
+      "question": "What is Rohit's educational qualification?",
+      "answer": "He holds an M.Tech in Artificial Intelligence from NIET, Greater Noida, completed in 2022.",
+      "keywords": [
+        "2022.",
+        "artificial",
+        "completed",
+        "educational",
+        "from",
+        "greater",
+        "holds",
+        "intelligence",
+        "m.tech",
+        "niet",
+        "noida",
+        "qualification"
+      ]
+    },
+    {
+      "id": 5,
+      "section": "About Me & Introduction",
+      "question": "What is Rohit's main area of expertise?",
+      "answer": "End-to-end AI solutions, Machine Learning, Computer Vision, NLP, predictive analytics, enterprise reporting, and AI programme delivery.",
+      "keywords": [
+        "analytics",
+        "area",
+        "computer",
+        "delivery.",
+        "end-to-end",
+        "enterprise",
+        "expertise",
+        "learning",
+        "machine",
+        "main",
+        "nlp",
+        "predictive",
+        "programme",
+        "reporting",
+        "solutions",
+        "vision"
+      ]
+    },
+    {
+      "id": 6,
+      "section": "About Me & Introduction",
+      "question": "Where is Rohit based?",
+      "answer": "Delhi, India.",
+      "keywords": [
+        "based",
+        "delhi",
+        "india."
+      ]
+    },
+    {
+      "id": 7,
+      "section": "About Me & Introduction",
+      "question": "What is Rohit's current designation?",
+      "answer": "Programme Manager – AI & Digital Transformation.",
+      "keywords": [
+        "current",
+        "designation",
+        "digital",
+        "manager",
+        "programme",
+        "transformation."
+      ]
+    },
+    {
+      "id": 8,
+      "section": "About Me & Introduction",
+      "question": "What industries has Rohit worked in?",
+      "answer": "Healthcare and wellness, government/public-sector technology, enterprise IT, search intelligence, and HR technology.",
+      "keywords": [
+        "enterprise",
+        "government/public-sector",
+        "healthcare",
+        "industries",
+        "intelligence",
+        "search",
+        "technology",
+        "technology.",
+        "wellness",
+        "worked"
+      ]
+    },
+    {
+      "id": 9,
+      "section": "About Me & Introduction",
+      "question": "What is Rohit known for professionally?",
+      "answer": "Combining practical AI engineering experience with enterprise-scale programme management and business-focused AI delivery.",
+      "keywords": [
+        "business-focused",
+        "combining",
+        "delivery.",
+        "engineering",
+        "enterprise-scale",
+        "experience",
+        "known",
+        "management",
+        "practical",
+        "professionally",
+        "programme"
+      ]
+    },
+    {
+      "id": 10,
+      "section": "About Me & Introduction",
+      "question": "What makes Rohit different from other AI professionals?",
+      "answer": "He combines technical AI development knowledge with programme leadership, cross-functional team management, and experience translating business problems into practical AI solutions.",
+      "keywords": [
+        "business",
+        "combines",
+        "cross-functional",
+        "development",
+        "different",
+        "experience",
+        "from",
+        "into",
+        "knowledge",
+        "leadership",
+        "makes",
+        "management",
+        "other",
+        "problems",
+        "professionals",
+        "programme",
+        "team",
+        "technical",
+        "translating"
+      ]
+    },
+    {
+      "id": 11,
+      "section": "About Me & Introduction",
+      "question": "What are Rohit's core professional strengths?",
+      "answer": "AI solution planning, Computer Vision, NLP, ML forecasting, business intelligence, technical integration, and programme management.",
+      "keywords": [
+        "business",
+        "computer",
+        "core",
+        "forecasting",
+        "integration",
+        "intelligence",
+        "management.",
+        "nlp",
+        "planning",
+        "professional",
+        "programme",
+        "solution",
+        "strengths",
+        "technical",
+        "vision"
+      ]
+    },
+    {
+      "id": 12,
+      "section": "About Me & Introduction",
+      "question": "What motivates Rohit professionally?",
+      "answer": "Solving real-world problems through AI innovation, intelligent automation, and scalable solutions that improve business outcomes.",
+      "keywords": [
+        "automation",
+        "business",
+        "improve",
+        "innovation",
+        "intelligent",
+        "motivates",
+        "outcomes.",
+        "problems",
+        "professionally",
+        "real-world",
+        "scalable",
+        "solutions",
+        "solving",
+        "that",
+        "through"
+      ]
+    },
+    {
+      "id": 13,
+      "section": "About Me & Introduction",
+      "question": "How did Rohit's career develop?",
+      "answer": "His experience spans AI/NLP chatbot development, Google-related search intelligence, Government/NIC AI projects, and enterprise AI transformation at VLCC.",
+      "keywords": [
+        "ai/nlp",
+        "career",
+        "chatbot",
+        "develop",
+        "development",
+        "enterprise",
+        "experience",
+        "google-related",
+        "government/nic",
+        "intelligence",
+        "projects",
+        "search",
+        "spans",
+        "transformation",
+        "vlcc."
+      ]
+    },
+    {
+      "id": 14,
+      "section": "About Me & Introduction",
+      "question": "What is Rohit's professional journey?",
+      "answer": "He has worked with Prakhar Software Solutions, GlobalLogic on Google-related work, SISL Infotech on Government/NIC assignments, and VLCC Healthcare.",
+      "keywords": [
+        "assignments",
+        "globallogic",
+        "google-related",
+        "government/nic",
+        "healthcare.",
+        "infotech",
+        "journey",
+        "prakhar",
+        "professional",
+        "sisl",
+        "software",
+        "solutions",
+        "vlcc",
+        "work",
+        "worked"
+      ]
+    },
+    {
+      "id": 15,
+      "section": "About Me & Introduction",
+      "question": "What is Rohit's career objective?",
+      "answer": "To become an AI Architect and lead the design and delivery of scalable, end-to-end enterprise AI solutions. ## Section 2 — Professional Experience (16–30)",
+      "keywords": [
+        "architect",
+        "become",
+        "career",
+        "delivery",
+        "design",
+        "end-to-end",
+        "enterprise",
+        "experience",
+        "lead",
+        "objective",
+        "professional",
+        "scalable",
+        "section",
+        "solutions."
+      ]
+    },
+    {
+      "id": 16,
+      "section": "Professional Experience",
+      "question": "Which companies has Rohit worked for?",
+      "answer": "VLCC Healthcare Limited, SISL Infotech Private Limited, GlobalLogic Technologies, and Prakhar Software Solutions.",
+      "keywords": [
+        "companies",
+        "globallogic",
+        "healthcare",
+        "infotech",
+        "limited",
+        "prakhar",
+        "private",
+        "sisl",
+        "software",
+        "solutions.",
+        "technologies",
+        "vlcc",
+        "worked"
+      ]
+    },
+    {
+      "id": 17,
+      "section": "Professional Experience",
+      "question": "Where does Rohit currently work?",
+      "answer": "VLCC Healthcare Limited.",
+      "keywords": [
+        "currently",
+        "healthcare",
+        "limited.",
+        "vlcc",
+        "work"
+      ]
+    },
+    {
+      "id": 18,
+      "section": "Professional Experience",
+      "question": "What are Rohit's responsibilities at VLCC?",
+      "answer": "Leading AI and digital transformation programmes, planning solution architectures, coordinating technical teams, managing implementation, and aligning technology delivery with business objectives.",
+      "keywords": [
+        "aligning",
+        "architectures",
+        "coordinating",
+        "digital",
+        "implementation",
+        "leading",
+        "managing",
+        "planning",
+        "programmes",
+        "responsibilities",
+        "solution",
+        "teams",
+        "technical",
+        "technolog",
+        "transformation",
+        "vlcc"
+      ]
+    },
+    {
+      "id": 19,
+      "section": "Professional Experience",
+      "question": "What major projects has Rohit led at VLCC?",
+      "answer": "SWISS AI Video Analytics, Geonexis Field Workforce Management, and enterprise Power BI dashboards.",
+      "keywords": [
+        "analytics",
+        "dashboards.",
+        "enterprise",
+        "field",
+        "geonexis",
+        "led",
+        "major",
+        "management",
+        "power",
+        "projects",
+        "swiss",
+        "video",
+        "vlcc",
+        "workforce"
+      ]
+    },
+    {
+      "id": 20,
+      "section": "Professional Experience",
+      "question": "What was Rohit's role at GlobalLogic?",
+      "answer": "He worked on Google Knowledge Panel and Search Intelligence initiatives involving data quality, structured and unstructured information, SQL, and Looker.",
+      "keywords": [
+        "data",
+        "globallogic",
+        "google",
+        "information",
+        "initiatives",
+        "intelligence",
+        "involving",
+        "knowledge",
+        "looker.",
+        "panel",
+        "quality",
+        "role",
+        "search",
+        "sql",
+        "structured",
+        "unstructured",
+        "worked"
+      ]
+    },
+    {
+      "id": 21,
+      "section": "Professional Experience",
+      "question": "What did Rohit contribute to Google-related projects?",
+      "answer": "He supported data analysis, quality improvement, and search intelligence workflows associated with Google Knowledge Panel.",
+      "keywords": [
+        "analysis",
+        "associated",
+        "contribute",
+        "data",
+        "google",
+        "google-related",
+        "improvement",
+        "intelligence",
+        "knowledge",
+        "panel.",
+        "projects",
+        "quality",
+        "search",
+        "supported",
+        "workflows"
+      ]
+    },
+    {
+      "id": 22,
+      "section": "Professional Experience",
+      "question": "What was Rohit's role at SISL Infotech?",
+      "answer": "He worked on Government/NIC document intelligence, OCR automation, scheme forecasting, and geographical performance analytics.",
+      "keywords": [
+        "analytics.",
+        "automation",
+        "document",
+        "forecasting",
+        "geographical",
+        "government/nic",
+        "infotech",
+        "intelligence",
+        "ocr",
+        "performance",
+        "role",
+        "scheme",
+        "sisl",
+        "worked"
+      ]
+    },
+    {
+      "id": 23,
+      "section": "Professional Experience",
+      "question": "What government projects has Rohit worked on?",
+      "answer": "Government Document Intelligence and Government Scheme Forecasting & State-wise/Region-wise Ranking.",
+      "keywords": [
+        "document",
+        "forecasting",
+        "government",
+        "intelligence",
+        "projects",
+        "ranking.",
+        "scheme",
+        "state-wise/region-wise",
+        "worked"
+      ]
+    },
+    {
+      "id": 24,
+      "section": "Professional Experience",
+      "question": "What did Rohit do at Prakhar Software Solutions?",
+      "answer": "He developed AI/NLP chatbot capabilities supporting HR queries, candidate screening, and interview scheduling.",
+      "keywords": [
+        "ai/nlp",
+        "candidate",
+        "capabilities",
+        "chatbot",
+        "developed",
+        "interview",
+        "prakhar",
+        "queries",
+        "scheduling.",
+        "screening",
+        "software",
+        "solutions",
+        "supporting"
+      ]
+    },
+    {
+      "id": 25,
+      "section": "Professional Experience",
+      "question": "Does Rohit have public-sector experience?",
+      "answer": "Yes. He worked on Government/NIC assignments supporting document processing and government scheme analytics.",
+      "keywords": [
+        "analytics.",
+        "assignments",
+        "document",
+        "experience",
+        "government",
+        "government/nic",
+        "processing",
+        "public-sector",
+        "scheme",
+        "supporting",
+        "worked",
+        "yes."
+      ]
+    },
+    {
+      "id": 26,
+      "section": "Professional Experience",
+      "question": "Has Rohit worked with Google?",
+      "answer": "Yes, through GlobalLogic Technologies on Google-related Knowledge Panel and Search Intelligence initiatives.",
+      "keywords": [
+        "globallogic",
+        "google",
+        "google-related",
+        "initiatives.",
+        "intelligence",
+        "knowledge",
+        "panel",
+        "search",
+        "technologies",
+        "through",
+        "worked",
+        "yes"
+      ]
+    },
+    {
+      "id": 27,
+      "section": "Professional Experience",
+      "question": "Has Rohit worked on enterprise-scale systems?",
+      "answer": "Yes. SWISS covers more than 175 locations, and his Power BI solutions support enterprise management reporting.",
+      "keywords": [
+        "175",
+        "covers",
+        "enterprise",
+        "enterprise-scale",
+        "locations",
+        "management",
+        "more",
+        "power",
+        "reporting.",
+        "solutions",
+        "support",
+        "swiss",
+        "systems",
+        "than",
+        "worked",
+        "yes."
+      ]
+    },
+    {
+      "id": 28,
+      "section": "Professional Experience",
+      "question": "Has Rohit managed cross-functional teams?",
+      "answer": "Yes. He has managed 25 people across direct and cross-functional teams.",
+      "keywords": [
+        "across",
+        "cross-functional",
+        "direct",
+        "managed",
+        "people",
+        "teams",
+        "teams.",
+        "yes."
+      ]
+    },
+    {
+      "id": 29,
+      "section": "Professional Experience",
+      "question": "Has Rohit handled end-to-end project delivery?",
+      "answer": "Yes. His responsibilities include requirements, architecture planning, implementation coordination, testing, deployment, and programme oversight.",
+      "keywords": [
+        "architecture",
+        "coordination",
+        "delivery",
+        "deployment",
+        "end-to-end",
+        "handled",
+        "implementation",
+        "include",
+        "oversight.",
+        "planning",
+        "programme",
+        "project",
+        "requirements",
+        "responsibilities",
+        "testing",
+        "yes."
+      ]
+    },
+    {
+      "id": 30,
+      "section": "Professional Experience",
+      "question": "What are Rohit's biggest professional achievements?",
+      "answer": "His three principal achievements are SWISS, Geonexis, and independently developing 25 enterprise Power BI dashboards. ## Section 3 — Artificial Intelligence & Machine Learning (31–45)",
+      "keywords": [
+        "achievements",
+        "artificial",
+        "biggest",
+        "dashboards.",
+        "developing",
+        "enterprise",
+        "geonexis",
+        "independently",
+        "intelligence",
+        "power",
+        "principal",
+        "professional",
+        "section",
+        "swiss",
+        "three"
+      ]
+    },
+    {
+      "id": 31,
+      "section": "Artificial Intelligence & Machine Learning",
+      "question": "What is Rohit's Machine Learning experience?",
+      "answer": "He has practical experience in supervised ML, Computer Vision, time-series forecasting, NLP, and AI system integration.",
+      "keywords": [
+        "computer",
+        "experience",
+        "forecasting",
+        "integration.",
+        "learning",
+        "machine",
+        "nlp",
+        "practical",
+        "supervised",
+        "system",
+        "time-series",
+        "vision"
+      ]
+    },
+    {
+      "id": 32,
+      "section": "Artificial Intelligence & Machine Learning",
+      "question": "Which ML algorithms has Rohit used?",
+      "answer": "SVM, Logistic Regression, ARIMA, SARIMA, YOLOv8, and DeepSORT-based tracking.",
+      "keywords": [
+        "algorithms",
+        "arima",
+        "deepsort-based",
+        "logistic",
+        "regression",
+        "sarima",
+        "svm",
+        "tracking.",
+        "used",
+        "yolov8"
+      ]
+    },
+    {
+      "id": 33,
+      "section": "Artificial Intelligence & Machine Learning",
+      "question": "Has Rohit used Scikit-learn?",
+      "answer": "Yes. He has used Scikit-learn for SVM and Logistic Regression in an HR chatbot project.",
+      "keywords": [
+        "chatbot",
+        "logistic",
+        "project.",
+        "regression",
+        "scikit-learn",
+        "svm",
+        "used",
+        "yes."
+      ]
+    },
+    {
+      "id": 34,
+      "section": "Artificial Intelligence & Machine Learning",
+      "question": "Does Rohit know supervised learning?",
+      "answer": "Yes. He has implemented supervised classification techniques including SVM and Logistic Regression.",
+      "keywords": [
+        "classification",
+        "implemented",
+        "including",
+        "know",
+        "learning",
+        "logistic",
+        "regression.",
+        "supervised",
+        "svm",
+        "techniques",
+        "yes."
+      ]
+    },
+    {
+      "id": 35,
+      "section": "Artificial Intelligence & Machine Learning",
+      "question": "Does Rohit know unsupervised learning?",
+      "answer": "He understands unsupervised learning concepts, but a specific production clustering implementation has not been verified.",
+      "keywords": [
+        "been",
+        "but",
+        "clustering",
+        "concepts",
+        "implementation",
+        "know",
+        "learning",
+        "not",
+        "production",
+        "specific",
+        "understands",
+        "unsupervised",
+        "verified."
+      ]
+    },
+    {
+      "id": 36,
+      "section": "Artificial Intelligence & Machine Learning",
+      "question": "What is Rohit's experience with predictive analytics?",
+      "answer": "He implemented ARIMA/SARIMA forecasting for government scheme performance analysis.",
+      "keywords": [
+        "analysis.",
+        "analytics",
+        "arima/sarima",
+        "experience",
+        "forecasting",
+        "government",
+        "implemented",
+        "performance",
+        "predictive",
+        "scheme"
+      ]
+    },
+    {
+      "id": 37,
+      "section": "Artificial Intelligence & Machine Learning",
+      "question": "Has Rohit built classification models?",
+      "answer": "Yes. His HR chatbot work included SVM and Logistic Regression classification.",
+      "keywords": [
+        "built",
+        "chatbot",
+        "classification",
+        "classification.",
+        "included",
+        "logistic",
+        "models",
+        "regression",
+        "svm",
+        "work",
+        "yes."
+      ]
+    },
+    {
+      "id": 38,
+      "section": "Artificial Intelligence & Machine Learning",
+      "question": "Has Rohit worked with time-series forecasting?",
+      "answer": "Yes. He used ARIMA and SARIMA for daily government scheme implementation data.",
+      "keywords": [
+        "arima",
+        "daily",
+        "data.",
+        "forecasting",
+        "government",
+        "implementation",
+        "sarima",
+        "scheme",
+        "time-series",
+        "used",
+        "worked",
+        "yes."
+      ]
+    },
+    {
+      "id": 39,
+      "section": "Artificial Intelligence & Machine Learning",
+      "question": "How does Rohit approach ML development?",
+      "answer": "His work involves understanding business requirements, preparing data, selecting models, evaluating results, integrating AI capabilities, and supporting deployment.",
+      "keywords": [
+        "approach",
+        "business",
+        "capabilities",
+        "data",
+        "deploym",
+        "development",
+        "evaluating",
+        "integrating",
+        "involves",
+        "models",
+        "preparing",
+        "requirements",
+        "results",
+        "selecting",
+        "supporting",
+        "understanding",
+        "work"
+      ]
+    },
+    {
+      "id": 40,
+      "section": "Artificial Intelligence & Machine Learning",
+      "question": "How does Rohit evaluate ML models?",
+      "answer": "He has used MAE and RMSE for forecasting. SWISS also uses operational footfall accuracy estimates; evaluation metrics depend on the project.",
+      "keywords": [
+        "accuracy",
+        "also",
+        "depend",
+        "estimates",
+        "evaluate",
+        "evaluation",
+        "footfall",
+        "forecasting.",
+        "mae",
+        "metrics",
+        "models",
+        "operational",
+        "project.",
+        "rmse",
+        "swiss",
+        "used",
+        "uses"
+      ]
+    },
+    {
+      "id": 41,
+      "section": "Artificial Intelligence & Machine Learning",
+      "question": "Has Rohit worked with deep learning?",
+      "answer": "Yes. His Computer Vision and speech/LLM integration experience involves deep learning technologies.",
+      "keywords": [
+        "computer",
+        "deep",
+        "experience",
+        "integration",
+        "involves",
+        "learning",
+        "speech/llm",
+        "technologies.",
+        "vision",
+        "worked",
+        "yes."
+      ]
+    },
+    {
+      "id": 42,
+      "section": "Artificial Intelligence & Machine Learning",
+      "question": "Which AI frameworks has Rohit used hands-on?",
+      "answer": "Scikit-learn, OpenCV, YOLOv8, DeepSORT, Rasa, spaCy, Whisper, and Ollama.",
+      "keywords": [
+        "deepsort",
+        "frameworks",
+        "hands-on",
+        "ollama.",
+        "opencv",
+        "rasa",
+        "scikit-learn",
+        "spacy",
+        "used",
+        "whisper",
+        "yolov8"
+      ]
+    },
+    {
+      "id": 43,
+      "section": "Artificial Intelligence & Machine Learning",
+      "question": "Does Rohit understand model training and inference?",
+      "answer": "Yes. His ML development background includes classification, forecasting, inference, and AI application integration.",
+      "keywords": [
+        "application",
+        "background",
+        "classification",
+        "development",
+        "forecasting",
+        "includes",
+        "inference",
+        "integration.",
+        "model",
+        "training",
+        "understand",
+        "yes."
+      ]
+    },
+    {
+      "id": 44,
+      "section": "Artificial Intelligence & Machine Learning",
+      "question": "How does Rohit measure AI business success?",
+      "answer": "Through operational usefulness, reliability, efficiency, and measurable business results. His Power BI work contributed to an estimated 40% reduction in manual reporting effort.",
+      "keywords": [
+        "business",
+        "contributed",
+        "efficiency",
+        "estimated",
+        "manual",
+        "measurable",
+        "measure",
+        "operational",
+        "power",
+        "reduction",
+        "reliability",
+        "results.",
+        "success",
+        "through",
+        "usefulness",
+        "work"
+      ]
+    },
+    {
+      "id": 45,
+      "section": "Artificial Intelligence & Machine Learning",
+      "question": "What makes Rohit strong in applied AI?",
+      "answer": "Experience connecting models and analytics with real business workflows across video analytics, government programmes, workforce platforms, and enterprise reporting. ## Section 4 — Generative AI, LLMs, RAG & Agentic AI (46–65)",
+      "keywords": [
+        "across",
+        "analytics",
+        "applied",
+        "business",
+        "connecting",
+        "enterprise",
+        "experience",
+        "government",
+        "makes",
+        "models",
+        "platforms",
+        "programmes",
+        "real",
+        "repor",
+        "strong",
+        "video",
+        "workflows",
+        "workforce"
+      ]
+    },
+    {
+      "id": 46,
+      "section": "Generative AI, LLMs, RAG & Agentic AI",
+      "question": "Does Rohit understand Generative AI?",
+      "answer": "Yes. He understands LLMs, Transformers, prompt-based applications, model integration, RAG, and agentic workflows.",
+      "keywords": [
+        "agentic",
+        "applications",
+        "generative",
+        "integration",
+        "llms",
+        "model",
+        "prompt-based",
+        "rag",
+        "transformers",
+        "understand",
+        "understands",
+        "workflows.",
+        "yes."
+      ]
+    },
+    {
+      "id": 47,
+      "section": "Generative AI, LLMs, RAG & Agentic AI",
+      "question": "What is Rohit's practical Generative AI experience?",
+      "answer": "He implemented a pilot meeting intelligence system using Whisper, Ollama, Qwen, and Llama for transcription and AI-generated insights.",
+      "keywords": [
+        "ai-generated",
+        "experience",
+        "generative",
+        "implemented",
+        "insights.",
+        "intelligence",
+        "llama",
+        "meeting",
+        "ollama",
+        "pilot",
+        "practical",
+        "qwen",
+        "system",
+        "transcription",
+        "using",
+        "whisper"
+      ]
+    },
+    {
+      "id": 48,
+      "section": "Generative AI, LLMs, RAG & Agentic AI",
+      "question": "Has Rohit worked with Large Language Models?",
+      "answer": "Yes. He integrated Qwen and Llama through Ollama in the Geonexis pilot.",
+      "keywords": [
+        "geonexis",
+        "integrated",
+        "language",
+        "large",
+        "llama",
+        "models",
+        "ollama",
+        "pilot.",
+        "qwen",
+        "through",
+        "worked",
+        "yes."
+      ]
+    },
+    {
+      "id": 49,
+      "section": "Generative AI, LLMs, RAG & Agentic AI",
+      "question": "Which LLMs has Rohit worked with?",
+      "answer": "Qwen and Llama are confirmed in a pilot. He also has conceptual familiarity with GPT, Claude, and Gemini.",
+      "keywords": [
+        "also",
+        "claude",
+        "conceptual",
+        "confirmed",
+        "familiarity",
+        "gemini.",
+        "gpt",
+        "llama",
+        "llms",
+        "pilot.",
+        "qwen",
+        "worked"
+      ]
+    },
+    {
+      "id": 50,
+      "section": "Generative AI, LLMs, RAG & Agentic AI",
+      "question": "What is a Transformer?",
+      "answer": "A neural network architecture using attention mechanisms to model relationships between tokens and process sequential information.",
+      "keywords": [
+        "architecture",
+        "attention",
+        "between",
+        "information.",
+        "mechanisms",
+        "model",
+        "network",
+        "neural",
+        "process",
+        "relationships",
+        "sequential",
+        "tokens",
+        "transformer",
+        "using"
+      ]
+    },
+    {
+      "id": 51,
+      "section": "Generative AI, LLMs, RAG & Agentic AI",
+      "question": "Does Rohit understand Transformer architecture?",
+      "answer": "Yes. He understands embeddings, attention, positional information, feed-forward layers, and Transformer-based language models.",
+      "keywords": [
+        "architecture",
+        "attention",
+        "embeddings",
+        "feed-forward",
+        "information",
+        "language",
+        "layers",
+        "models.",
+        "positional",
+        "transformer",
+        "transformer-based",
+        "understand",
+        "understands",
+        "yes."
+      ]
+    },
+    {
+      "id": 52,
+      "section": "Generative AI, LLMs, RAG & Agentic AI",
+      "question": "What is an attention mechanism?",
+      "answer": "A mechanism that helps models determine which tokens or information elements are most relevant to each other.",
+      "keywords": [
+        "attention",
+        "determine",
+        "each",
+        "elements",
+        "helps",
+        "information",
+        "mechanism",
+        "models",
+        "most",
+        "other.",
+        "relevant",
+        "that",
+        "tokens"
+      ]
+    },
+    {
+      "id": 53,
+      "section": "Generative AI, LLMs, RAG & Agentic AI",
+      "question": "What are Query, Key, and Value in attention?",
+      "answer": "They are learned representations used to calculate relevance between tokens and combine contextual information.",
+      "keywords": [
+        "attention",
+        "between",
+        "calculate",
+        "combine",
+        "contextual",
+        "information.",
+        "key",
+        "learned",
+        "query",
+        "relevance",
+        "representations",
+        "they",
+        "tokens",
+        "used",
+        "value"
+      ]
+    },
+    {
+      "id": 54,
+      "section": "Generative AI, LLMs, RAG & Agentic AI",
+      "question": "What is tokenization?",
+      "answer": "Converting text into smaller units called tokens for processing by language models.",
+      "keywords": [
+        "called",
+        "converting",
+        "into",
+        "language",
+        "models.",
+        "processing",
+        "smaller",
+        "text",
+        "tokenization",
+        "tokens",
+        "units"
+      ]
+    },
+    {
+      "id": 55,
+      "section": "Generative AI, LLMs, RAG & Agentic AI",
+      "question": "What are embeddings?",
+      "answer": "Numerical vector representations of content used for machine learning and semantic similarity.",
+      "keywords": [
+        "content",
+        "embeddings",
+        "learning",
+        "machine",
+        "numerical",
+        "representations",
+        "semantic",
+        "similarity.",
+        "used",
+        "vector"
+      ]
+    },
+    {
+      "id": 56,
+      "section": "Generative AI, LLMs, RAG & Agentic AI",
+      "question": "What is RAG?",
+      "answer": "Retrieval-Augmented Generation combines information retrieval with an LLM to generate answers grounded in external content.",
+      "keywords": [
+        "answers",
+        "combines",
+        "content.",
+        "external",
+        "generate",
+        "generation",
+        "grounded",
+        "information",
+        "llm",
+        "rag",
+        "retrieval",
+        "retrieval-augmented"
+      ]
+    },
+    {
+      "id": 57,
+      "section": "Generative AI, LLMs, RAG & Agentic AI",
+      "question": "Does Rohit understand RAG architecture?",
+      "answer": "Yes. He understands ingestion, chunking, embeddings, vector retrieval, reranking, and LLM answer generation.",
+      "keywords": [
+        "answer",
+        "architecture",
+        "chunking",
+        "embeddings",
+        "generation.",
+        "ingestion",
+        "llm",
+        "rag",
+        "reranking",
+        "retrieval",
+        "understand",
+        "understands",
+        "vector",
+        "yes."
+      ]
+    },
+    {
+      "id": 58,
+      "section": "Generative AI, LLMs, RAG & Agentic AI",
+      "question": "Has Rohit deployed RAG in production?",
+      "answer": "Production RAG deployment has not been verified.",
+      "keywords": [
+        "been",
+        "deployed",
+        "deployment",
+        "not",
+        "production",
+        "rag",
+        "verified."
+      ]
+    },
+    {
+      "id": 59,
+      "section": "Generative AI, LLMs, RAG & Agentic AI",
+      "question": "What is the difference between fine-tuning and RAG?",
+      "answer": "Fine-tuning changes model parameters through additional training. RAG retrieves external information at inference time.",
+      "keywords": [
+        "additional",
+        "between",
+        "changes",
+        "difference",
+        "external",
+        "fine-tuning",
+        "inference",
+        "information",
+        "model",
+        "parameters",
+        "rag",
+        "retrieves",
+        "through",
+        "time.",
+        "training."
+      ]
+    },
+    {
+      "id": 60,
+      "section": "Generative AI, LLMs, RAG & Agentic AI",
+      "question": "What does Rohit know about LangChain?",
+      "answer": "He understands LangChain concepts and its use for orchestrating LLM applications. Hands-on implementation remains unverified.",
+      "keywords": [
+        "applications.",
+        "concepts",
+        "hands-on",
+        "implementation",
+        "its",
+        "know",
+        "langchain",
+        "llm",
+        "orchestrating",
+        "remains",
+        "understands",
+        "unverified.",
+        "use"
+      ]
+    },
+    {
+      "id": 61,
+      "section": "Generative AI, LLMs, RAG & Agentic AI",
+      "question": "What does Rohit know about LangGraph?",
+      "answer": "He understands graph-based agent orchestration and stateful AI workflows. Production implementation remains unverified.",
+      "keywords": [
+        "agent",
+        "graph-based",
+        "implementation",
+        "know",
+        "langgraph",
+        "orchestration",
+        "production",
+        "remains",
+        "stateful",
+        "understands",
+        "unverified.",
+        "workflows."
+      ]
+    },
+    {
+      "id": 62,
+      "section": "Generative AI, LLMs, RAG & Agentic AI",
+      "question": "Does Rohit know FAISS and ChromaDB?",
+      "answer": "Yes, conceptually as vector search and vector database technologies. Hands-on implementations remain unverified.",
+      "keywords": [
+        "chromadb",
+        "conceptually",
+        "database",
+        "faiss",
+        "hands-on",
+        "implementations",
+        "know",
+        "remain",
+        "search",
+        "technologies.",
+        "unverified.",
+        "vector",
+        "yes"
+      ]
+    },
+    {
+      "id": 63,
+      "section": "Generative AI, LLMs, RAG & Agentic AI",
+      "question": "What is Rohit's understanding of MCP?",
+      "answer": "He understands Model Context Protocol as a standard for connecting AI applications with external tools and data sources.",
+      "keywords": [
+        "applications",
+        "connecting",
+        "context",
+        "data",
+        "external",
+        "mcp",
+        "model",
+        "protocol",
+        "sources.",
+        "standard",
+        "tools",
+        "understanding",
+        "understands"
+      ]
+    },
+    {
+      "id": 64,
+      "section": "Generative AI, LLMs, RAG & Agentic AI",
+      "question": "Has Rohit built AI agents in production?",
+      "answer": "Production agent implementation has not been verified.",
+      "keywords": [
+        "agent",
+        "agents",
+        "been",
+        "built",
+        "implementation",
+        "not",
+        "production",
+        "verified."
+      ]
+    },
+    {
+      "id": 65,
+      "section": "Generative AI, LLMs, RAG & Agentic AI",
+      "question": "Has Rohit implemented LLM-based business applications?",
+      "answer": "Yes. His Geonexis meeting insights system uses Whisper, Ollama, Qwen, and Llama and is currently at the pilot stage. ## Section 5 — Computer Vision & Video Analytics (66–80)",
+      "keywords": [
+        "anal",
+        "applications",
+        "business",
+        "computer",
+        "currently",
+        "geonexis",
+        "implemented",
+        "insights",
+        "llama",
+        "llm-based",
+        "meeting",
+        "ollama",
+        "pilot",
+        "qwen",
+        "section",
+        "stage.",
+        "system",
+        "uses",
+        "video",
+        "vision",
+        "whisper",
+        "yes."
+      ]
+    },
+    {
+      "id": 66,
+      "section": "Computer Vision & Video Analytics",
+      "question": "Does Rohit have Computer Vision experience?",
+      "answer": "Yes. He has worked on video analytics, object detection, tracking, and driver drowsiness detection.",
+      "keywords": [
+        "analytics",
+        "computer",
+        "detection",
+        "detection.",
+        "driver",
+        "drowsiness",
+        "experience",
+        "object",
+        "tracking",
+        "video",
+        "vision",
+        "worked",
+        "yes."
+      ]
+    },
+    {
+      "id": 67,
+      "section": "Computer Vision & Video Analytics",
+      "question": "Which Computer Vision technologies does Rohit use?",
+      "answer": "YOLOv8, DeepSORT, OpenCV, and Python.",
+      "keywords": [
+        "computer",
+        "deepsort",
+        "opencv",
+        "python.",
+        "technologies",
+        "use",
+        "vision",
+        "yolov8"
+      ]
+    },
+    {
+      "id": 68,
+      "section": "Computer Vision & Video Analytics",
+      "question": "What is YOLOv8?",
+      "answer": "A deep learning model family used for object detection and related Computer Vision tasks.",
+      "keywords": [
+        "computer",
+        "deep",
+        "detection",
+        "family",
+        "learning",
+        "model",
+        "object",
+        "related",
+        "tasks.",
+        "used",
+        "vision",
+        "yolov8"
+      ]
+    },
+    {
+      "id": 69,
+      "section": "Computer Vision & Video Analytics",
+      "question": "How has Rohit used YOLOv8?",
+      "answer": "For person detection in SWISS video analytics.",
+      "keywords": [
+        "analytics.",
+        "detection",
+        "person",
+        "swiss",
+        "used",
+        "video",
+        "yolov8"
+      ]
+    },
+    {
+      "id": 70,
+      "section": "Computer Vision & Video Analytics",
+      "question": "What is DeepSORT?",
+      "answer": "An object tracking algorithm that associates detections across video frames.",
+      "keywords": [
+        "across",
+        "algorithm",
+        "associates",
+        "deepsort",
+        "detections",
+        "frames.",
+        "object",
+        "that",
+        "tracking",
+        "video"
+      ]
+    },
+    {
+      "id": 71,
+      "section": "Computer Vision & Video Analytics",
+      "question": "How has Rohit used DeepSORT?",
+      "answer": "To track detected people and support movement and footfall analytics in SWISS.",
+      "keywords": [
+        "analytics",
+        "deepsort",
+        "detected",
+        "footfall",
+        "movement",
+        "people",
+        "support",
+        "swiss.",
+        "track",
+        "used"
+      ]
+    },
+    {
+      "id": 72,
+      "section": "Computer Vision & Video Analytics",
+      "question": "What is OpenCV?",
+      "answer": "An open-source Computer Vision library used for image and video processing.",
+      "keywords": [
+        "computer",
+        "image",
+        "library",
+        "open-source",
+        "opencv",
+        "processing.",
+        "used",
+        "video",
+        "vision"
+      ]
+    },
+    {
+      "id": 73,
+      "section": "Computer Vision & Video Analytics",
+      "question": "Has Rohit worked with CCTV analytics?",
+      "answer": "Yes. SWISS analyzes CCTV streams for footfall, workforce monitoring, occupancy, and customer behavior insights.",
+      "keywords": [
+        "analytics",
+        "analyzes",
+        "behavior",
+        "cctv",
+        "customer",
+        "footfall",
+        "insights.",
+        "monitoring",
+        "occupancy",
+        "streams",
+        "swiss",
+        "worked",
+        "workforce",
+        "yes."
+      ]
+    },
+    {
+      "id": 74,
+      "section": "Computer Vision & Video Analytics",
+      "question": "Can Rohit develop people-counting systems?",
+      "answer": "Yes. His SWISS experience includes YOLOv8 detection, DeepSORT tracking, and virtual entry/exit counting.",
+      "keywords": [
+        "counting.",
+        "deepsort",
+        "detection",
+        "develop",
+        "entry/exit",
+        "experience",
+        "includes",
+        "people-counting",
+        "swiss",
+        "systems",
+        "tracking",
+        "virtual",
+        "yes.",
+        "yolov8"
+      ]
+    },
+    {
+      "id": 75,
+      "section": "Computer Vision & Video Analytics",
+      "question": "Has Rohit worked on real-time video processing?",
+      "answer": "Yes. SWISS processes video streams for operational analytics.",
+      "keywords": [
+        "analytics.",
+        "operational",
+        "processes",
+        "processing",
+        "real-time",
+        "streams",
+        "swiss",
+        "video",
+        "worked",
+        "yes."
+      ]
+    },
+    {
+      "id": 76,
+      "section": "Computer Vision & Video Analytics",
+      "question": "What challenges has Rohit faced in Computer Vision?",
+      "answer": "Camera positioning, lighting variation, tracking errors, video latency, network connectivity, and distributed deployment.",
+      "keywords": [
+        "camera",
+        "challenges",
+        "computer",
+        "connectivity",
+        "deployment.",
+        "distributed",
+        "errors",
+        "faced",
+        "latency",
+        "lighting",
+        "network",
+        "positioning",
+        "tracking",
+        "variation",
+        "video",
+        "vision"
+      ]
+    },
+    {
+      "id": 77,
+      "section": "Computer Vision & Video Analytics",
+      "question": "Has Rohit worked on facial recognition?",
+      "answer": "He has overseen biometric authentication integration in Geonexis. A custom facial recognition model is not confirmed.",
+      "keywords": [
+        "authentication",
+        "biometric",
+        "confirmed.",
+        "custom",
+        "facial",
+        "geonexis.",
+        "integration",
+        "model",
+        "not",
+        "overseen",
+        "recognition",
+        "worked"
+      ]
+    },
+    {
+      "id": 78,
+      "section": "Computer Vision & Video Analytics",
+      "question": "What is Rohit's driver drowsiness detection project?",
+      "answer": "A Computer Vision and ML project using OpenCV, Eye Aspect Ratio, and Mouth Aspect Ratio to identify signs of fatigue. It was published by IEEE as Drowsiness Alertness for Driver Safety: https://ieeexplore.ieee.org/document/10040365",
+      "keywords": [
+        "aspect",
+        "computer",
+        "detection",
+        "driver",
+        "drowsiness",
+        "eye",
+        "fatigue.",
+        "identify",
+        "mouth",
+        "opencv",
+        "project",
+        "ratio",
+        "signs",
+        "using",
+        "vision"
+      ]
+    },
+    {
+      "id": 79,
+      "section": "Computer Vision & Video Analytics",
+      "question": "What are EAR and MAR?",
+      "answer": "Eye Aspect Ratio and Mouth Aspect Ratio are geometric measurements that can help detect eye closure and yawning patterns.",
+      "keywords": [
+        "aspect",
+        "closure",
+        "detect",
+        "ear",
+        "eye",
+        "geometric",
+        "help",
+        "mar",
+        "measurements",
+        "mouth",
+        "patterns.",
+        "ratio",
+        "that",
+        "yawning"
+      ]
+    },
+    {
+      "id": 80,
+      "section": "Computer Vision & Video Analytics",
+      "question": "What is Rohit's main Computer Vision achievement?",
+      "answer": "Overseeing SWISS AI Video Analytics across more than 175 VLCC locations. ## Section 6 — SWISS AI Video Analytics (81–95)",
+      "keywords": [
+        "175",
+        "achievement",
+        "across",
+        "analytics",
+        "computer",
+        "locations.",
+        "main",
+        "more",
+        "overseeing",
+        "section",
+        "swiss",
+        "than",
+        "video",
+        "vision",
+        "vlcc"
+      ]
+    },
+    {
+      "id": 81,
+      "section": "SWISS AI Video Analytics",
+      "question": "What is SWISS?",
+      "answer": "SWISS stands for Smart Workforce and Inventory Surveillance System, an AI-powered video analytics platform at VLCC Healthcare.",
+      "keywords": [
+        "ai-powered",
+        "analytics",
+        "healthcare.",
+        "inventory",
+        "platform",
+        "smart",
+        "stands",
+        "surveillance",
+        "swiss",
+        "system",
+        "video",
+        "vlcc",
+        "workforce"
+      ]
+    },
+    {
+      "id": 82,
+      "section": "SWISS AI Video Analytics",
+      "question": "What is Rohit's role in SWISS?",
+      "answer": "He oversees requirements, architecture planning, technical teams, implementation, deployment, and programme management.",
+      "keywords": [
+        "architecture",
+        "deployment",
+        "implementation",
+        "management.",
+        "oversees",
+        "planning",
+        "programme",
+        "requirements",
+        "role",
+        "swiss",
+        "teams",
+        "technical"
+      ]
+    },
+    {
+      "id": 83,
+      "section": "SWISS AI Video Analytics",
+      "question": "Why was SWISS developed?",
+      "answer": "To improve workforce visibility, automate footfall and occupancy analytics, and support operational decision-making.",
+      "keywords": [
+        "analytics",
+        "automate",
+        "decision-making.",
+        "developed",
+        "footfall",
+        "improve",
+        "occupancy",
+        "operational",
+        "support",
+        "swiss",
+        "visibility",
+        "why",
+        "workforce"
+      ]
+    },
+    {
+      "id": 84,
+      "section": "SWISS AI Video Analytics",
+      "question": "What business problems does SWISS solve?",
+      "answer": "Manual video monitoring, limited visibility into customer movement, workforce activity, footfall, and space utilization.",
+      "keywords": [
+        "activity",
+        "business",
+        "customer",
+        "footfall",
+        "into",
+        "limited",
+        "manual",
+        "monitoring",
+        "movement",
+        "problems",
+        "solve",
+        "space",
+        "swiss",
+        "utilization.",
+        "video",
+        "visibility",
+        "workforce"
+      ]
+    },
+    {
+      "id": 85,
+      "section": "SWISS AI Video Analytics",
+      "question": "What technologies power SWISS?",
+      "answer": "Python, YOLOv8, DeepSORT, and OpenCV.",
+      "keywords": [
+        "deepsort",
+        "opencv.",
+        "power",
+        "python",
+        "swiss",
+        "technologies",
+        "yolov8"
+      ]
+    },
+    {
+      "id": 86,
+      "section": "SWISS AI Video Analytics",
+      "question": "How many locations use SWISS?",
+      "answer": "More than 175 VLCC locations.",
+      "keywords": [
+        "175",
+        "locations",
+        "locations.",
+        "many",
+        "more",
+        "swiss",
+        "than",
+        "use",
+        "vlcc"
+      ]
+    },
+    {
+      "id": 87,
+      "section": "SWISS AI Video Analytics",
+      "question": "How does SWISS detect people?",
+      "answer": "YOLOv8 identifies people in CCTV frames, while DeepSORT associates detections across frames.",
+      "keywords": [
+        "across",
+        "associates",
+        "cctv",
+        "deepsort",
+        "detect",
+        "detections",
+        "frames",
+        "frames.",
+        "identifies",
+        "people",
+        "swiss",
+        "while",
+        "yolov8"
+      ]
+    },
+    {
+      "id": 88,
+      "section": "SWISS AI Video Analytics",
+      "question": "How does SWISS calculate footfall?",
+      "answer": "It uses virtual entry/exit lines and tracking IDs to count people crossing in each direction.",
+      "keywords": [
+        "calculate",
+        "count",
+        "crossing",
+        "direction.",
+        "each",
+        "entry/exit",
+        "footfall",
+        "ids",
+        "lines",
+        "people",
+        "swiss",
+        "tracking",
+        "uses",
+        "virtual"
+      ]
+    },
+    {
+      "id": 89,
+      "section": "SWISS AI Video Analytics",
+      "question": "How is occupancy calculated?",
+      "answer": "Opening occupancy plus total entries minus total exits.",
+      "keywords": [
+        "calculated",
+        "entries",
+        "exits.",
+        "minus",
+        "occupancy",
+        "opening",
+        "plus",
+        "total"
+      ]
+    },
+    {
+      "id": 90,
+      "section": "SWISS AI Video Analytics",
+      "question": "How does SWISS monitor workforce activity?",
+      "answer": "Through staff identification, attendance-related capabilities, presence analysis, movement tracking, and operational monitoring.",
+      "keywords": [
+        "activity",
+        "analysis",
+        "attendance-related",
+        "capabilities",
+        "identification",
+        "monitor",
+        "monitoring.",
+        "movement",
+        "operational",
+        "presence",
+        "staff",
+        "swiss",
+        "through",
+        "tracking",
+        "workforce"
+      ]
+    },
+    {
+      "id": 91,
+      "section": "SWISS AI Video Analytics",
+      "question": "How does SWISS analyze customer behavior?",
+      "answer": "Through footfall, movement, dwell time, peak-hour patterns, and customer–staff interaction analysis.",
+      "keywords": [
+        "analysis.",
+        "analyze",
+        "behavior",
+        "customer",
+        "dwell",
+        "footfall",
+        "interaction",
+        "movement",
+        "patterns",
+        "peak-hour",
+        "staff",
+        "swiss",
+        "through",
+        "time"
+      ]
+    },
+    {
+      "id": 92,
+      "section": "SWISS AI Video Analytics",
+      "question": "Does SWISS support alerts?",
+      "answer": "Yes. Automated alerts are among its confirmed capabilities; specific alert rules have not been documented.",
+      "keywords": [
+        "alert",
+        "alerts",
+        "among",
+        "automated",
+        "been",
+        "capabilities",
+        "confirmed",
+        "documented.",
+        "its",
+        "not",
+        "rules",
+        "specific",
+        "support",
+        "swiss",
+        "yes."
+      ]
+    },
+    {
+      "id": 93,
+      "section": "SWISS AI Video Analytics",
+      "question": "Where is SWISS deployed?",
+      "answer": "On-premises.",
+      "keywords": [
+        "deployed",
+        "on-premises.",
+        "swiss"
+      ]
+    },
+    {
+      "id": 94,
+      "section": "SWISS AI Video Analytics",
+      "question": "What is SWISS's accuracy?",
+      "answer": "Reported footfall counting accuracy is approximately 90–95%, an operational estimate rather than an independently validated benchmark.",
+      "keywords": [
+        "accuracy",
+        "approximately",
+        "benchmark.",
+        "counting",
+        "estimate",
+        "footfall",
+        "independently",
+        "operational",
+        "rather",
+        "reported",
+        "swiss",
+        "than",
+        "validated"
+      ]
+    },
+    {
+      "id": 95,
+      "section": "SWISS AI Video Analytics",
+      "question": "What challenges and benefits does SWISS have?",
+      "answer": "Challenges include camera positioning, lighting, tracking errors, and video latency. Benefits include improved monitoring and operational insights. Quantified cost savings are not verified. ## Section 7 — Geonexis Field Workforce Platform (96–110)",
+      "keywords": [
+        "benefits",
+        "camera",
+        "challenges",
+        "errors",
+        "improved",
+        "include",
+        "insights.",
+        "latency.",
+        "lighting",
+        "monitoring",
+        "operational",
+        "positioning",
+        "quantified",
+        "swiss",
+        "tracking",
+        "video"
+      ]
+    },
+    {
+      "id": 96,
+      "section": "Geonexis Field Workforce Platform",
+      "question": "What is Geonexis?",
+      "answer": "An AI-enabled field workforce management and sales execution platform at VLCC Healthcare.",
+      "keywords": [
+        "ai-enabled",
+        "execution",
+        "field",
+        "geonexis",
+        "healthcare.",
+        "management",
+        "platform",
+        "sales",
+        "vlcc",
+        "workforce"
+      ]
+    },
+    {
+      "id": 97,
+      "section": "Geonexis Field Workforce Platform",
+      "question": "What is Rohit's role in Geonexis?",
+      "answer": "He oversees programme planning, AI integration, technical implementation, stakeholder coordination, testing, and delivery.",
+      "keywords": [
+        "coordination",
+        "delivery.",
+        "geonexis",
+        "implementation",
+        "integration",
+        "oversees",
+        "planning",
+        "programme",
+        "role",
+        "stakeholder",
+        "technical",
+        "testing"
+      ]
+    },
+    {
+      "id": 98,
+      "section": "Geonexis Field Workforce Platform",
+      "question": "What are Geonexis's main features?",
+      "answer": "Biometric authentication, GPS attendance, field tracking, geofencing, multilingual transcription, and productivity analytics.",
+      "keywords": [
+        "analytics.",
+        "attendance",
+        "authentication",
+        "biometric",
+        "features",
+        "field",
+        "geofencing",
+        "geonexis",
+        "gps",
+        "main",
+        "multilingual",
+        "productivity",
+        "tracking",
+        "transcription"
+      ]
+    },
+    {
+      "id": 99,
+      "section": "Geonexis Field Workforce Platform",
+      "question": "Which platforms support Geonexis?",
+      "answer": "Android and iOS.",
+      "keywords": [
+        "android",
+        "geonexis",
+        "ios.",
+        "platforms",
+        "support"
+      ]
+    },
+    {
+      "id": 100,
+      "section": "Geonexis Field Workforce Platform",
+      "question": "How many employees use Geonexis?",
+      "answer": "Approximately 100 employees.",
+      "keywords": [
+        "100",
+        "approximately",
+        "employees",
+        "employees.",
+        "geonexis",
+        "many",
+        "use"
+      ]
+    },
+    {
+      "id": 101,
+      "section": "Geonexis Field Workforce Platform",
+      "question": "How does Geonexis biometric authentication work?",
+      "answer": "It uses supported native device biometric capabilities, including Apple's LocalAuthentication and AndroidX BiometricPrompt.",
+      "keywords": [
+        "androidx",
+        "apple",
+        "authentication",
+        "biometric",
+        "biometricprompt.",
+        "capabilities",
+        "device",
+        "geonexis",
+        "including",
+        "localauthentication",
+        "native",
+        "supported",
+        "uses",
+        "work"
+      ]
+    },
+    {
+      "id": 102,
+      "section": "Geonexis Field Workforce Platform",
+      "question": "Does Geonexis use a custom facial recognition model?",
+      "answer": "A custom model is not confirmed. Its documented device authentication uses native biometric frameworks.",
+      "keywords": [
+        "authentication",
+        "biometric",
+        "confirmed.",
+        "custom",
+        "device",
+        "documented",
+        "facial",
+        "frameworks.",
+        "geonexis",
+        "its",
+        "model",
+        "native",
+        "not",
+        "recognition",
+        "use",
+        "uses"
+      ]
+    },
+    {
+      "id": 103,
+      "section": "Geonexis Field Workforce Platform",
+      "question": "How does GPS attendance work?",
+      "answer": "Employees record attendance through the mobile application, with timestamps and location verification.",
+      "keywords": [
+        "application",
+        "attendance",
+        "employees",
+        "gps",
+        "location",
+        "mobile",
+        "record",
+        "through",
+        "timestamps",
+        "verification.",
+        "work"
+      ]
+    },
+    {
+      "id": 104,
+      "section": "Geonexis Field Workforce Platform",
+      "question": "Does Geonexis support geofencing?",
+      "answer": "Yes. It supports location-based verification against defined geographical boundaries.",
+      "keywords": [
+        "against",
+        "boundaries.",
+        "defined",
+        "geofencing",
+        "geographical",
+        "geonexis",
+        "location-based",
+        "support",
+        "supports",
+        "verification",
+        "yes."
+      ]
+    },
+    {
+      "id": 105,
+      "section": "Geonexis Field Workforce Platform",
+      "question": "Does Geonexis support background tracking?",
+      "answer": "Yes. It supports periodic GPS updates, background tracking, and offline synchronization, subject to device permissions.",
+      "keywords": [
+        "background",
+        "device",
+        "geonexis",
+        "gps",
+        "offline",
+        "periodic",
+        "permissions.",
+        "subject",
+        "support",
+        "supports",
+        "synchronization",
+        "tracking",
+        "updates",
+        "yes."
+      ]
+    },
+    {
+      "id": 106,
+      "section": "Geonexis Field Workforce Platform",
+      "question": "Which speech-to-text model does Geonexis use?",
+      "answer": "OpenAI Whisper, with native iOS and Android speech recognition fallbacks.",
+      "keywords": [
+        "android",
+        "fallbacks.",
+        "geonexis",
+        "ios",
+        "model",
+        "native",
+        "openai",
+        "recognition",
+        "speech",
+        "speech-to-text",
+        "use",
+        "whisper"
+      ]
+    },
+    {
+      "id": 107,
+      "section": "Geonexis Field Workforce Platform",
+      "question": "How are AI meeting insights generated?",
+      "answer": "Whisper transcribes conversations, and Qwen and Llama models running through Ollama analyze transcripts to generate insights.",
+      "keywords": [
+        "analyze",
+        "conversations",
+        "generate",
+        "generated",
+        "insights",
+        "insights.",
+        "llama",
+        "meeting",
+        "models",
+        "ollama",
+        "qwen",
+        "running",
+        "through",
+        "transcribes",
+        "transcripts",
+        "whisper"
+      ]
+    },
+    {
+      "id": 108,
+      "section": "Geonexis Field Workforce Platform",
+      "question": "Is the meeting intelligence system in production?",
+      "answer": "It is currently at the pilot stage.",
+      "keywords": [
+        "currently",
+        "intelligence",
+        "meeting",
+        "pilot",
+        "production",
+        "stage.",
+        "system"
+      ]
+    },
+    {
+      "id": 109,
+      "section": "Geonexis Field Workforce Platform",
+      "question": "What is Geonexis's concurrent user capacity?",
+      "answer": "Formal load-testing results and maximum tested concurrency have not been verified.",
+      "keywords": [
+        "been",
+        "capacity",
+        "concurrency",
+        "concurrent",
+        "formal",
+        "geonexis",
+        "load-testing",
+        "maximum",
+        "not",
+        "results",
+        "tested",
+        "user",
+        "verified."
+      ]
+    },
+    {
+      "id": 110,
+      "section": "Geonexis Field Workforce Platform",
+      "question": "What business benefits does Geonexis deliver?",
+      "answer": "Improved workforce visibility, digital attendance, field tracking, automated meeting documentation, and operational insights. Exact percentage improvements are not verified. ## Section 8 — Power BI & Enterprise Analytics (111–120)",
+      "keywords": [
+        "attendance",
+        "automated",
+        "benefits",
+        "business",
+        "deliver",
+        "digital",
+        "documentation",
+        "exact",
+        "field",
+        "geonexis",
+        "improved",
+        "improvements",
+        "insights.",
+        "meeting",
+        "operational",
+        "percentage",
+        "tracking",
+        "visibility",
+        "workforce"
+      ]
+    },
+    {
+      "id": 111,
+      "section": "Power BI & Enterprise Analytics",
+      "question": "Does Rohit have Power BI experience?",
+      "answer": "Yes. He independently developed and deployed 25 enterprise Power BI dashboards.",
+      "keywords": [
+        "dashboards.",
+        "deployed",
+        "developed",
+        "enterprise",
+        "experience",
+        "independently",
+        "power",
+        "yes."
+      ]
+    },
+    {
+      "id": 112,
+      "section": "Power BI & Enterprise Analytics",
+      "question": "What types of dashboards has he developed?",
+      "answer": "Finance, Inventory, Procurement, Sales & Revenue, Operations, and Executive Management dashboards.",
+      "keywords": [
+        "dashboards",
+        "dashboards.",
+        "developed",
+        "executive",
+        "finance",
+        "inventory",
+        "management",
+        "operations",
+        "procurement",
+        "revenue",
+        "sales",
+        "types"
+      ]
+    },
+    {
+      "id": 113,
+      "section": "Power BI & Enterprise Analytics",
+      "question": "Has Rohit worked with SAP data?",
+      "answer": "Yes. He integrated SAP FI/MM reporting data through APIs and SQL Server.",
+      "keywords": [
+        "apis",
+        "data",
+        "fi/mm",
+        "integrated",
+        "reporting",
+        "sap",
+        "server.",
+        "sql",
+        "through",
+        "worked",
+        "yes."
+      ]
+    },
+    {
+      "id": 114,
+      "section": "Power BI & Enterprise Analytics",
+      "question": "How does SAP connect with Power BI?",
+      "answer": "SAP FI/MM APIs feed SQL Server middleware, which serves as the data source for Power BI.",
+      "keywords": [
+        "apis",
+        "bi.",
+        "connect",
+        "data",
+        "feed",
+        "fi/mm",
+        "middleware",
+        "power",
+        "sap",
+        "server",
+        "serves",
+        "source",
+        "sql"
+      ]
+    },
+    {
+      "id": 115,
+      "section": "Power BI & Enterprise Analytics",
+      "question": "What Power BI technologies does Rohit use?",
+      "answer": "Power Query, DAX, data modeling, Power BI Service, scheduled refresh, and Row-Level Security.",
+      "keywords": [
+        "data",
+        "dax",
+        "modeling",
+        "power",
+        "query",
+        "refresh",
+        "row-level",
+        "scheduled",
+        "security.",
+        "service",
+        "technologies",
+        "use"
+      ]
+    },
+    {
+      "id": 116,
+      "section": "Power BI & Enterprise Analytics",
+      "question": "Which DAX functions has Rohit used?",
+      "answer": "CALCULATE, FILTER, SUMX, ALL, ALLSELECTED, DISTINCTCOUNT, RELATED, LOOKUPVALUE, DATEADD, SAMEPERIODLASTYEAR, DIVIDE, IF, and SWITCH.",
+      "keywords": [
+        "all",
+        "allselected",
+        "calculate",
+        "dateadd",
+        "dax",
+        "distinctcount",
+        "divide",
+        "filter",
+        "functions",
+        "lookupvalue",
+        "related",
+        "sameperiodlastyear",
+        "sumx",
+        "switch.",
+        "used"
+      ]
+    },
+    {
+      "id": 117,
+      "section": "Power BI & Enterprise Analytics",
+      "question": "How does Rohit automate reporting?",
+      "answer": "Through authenticated SAP APIs, SQL Server integration, Power BI transformations, DAX measures, and scheduled Power BI Service refreshes.",
+      "keywords": [
+        "apis",
+        "authenticated",
+        "automate",
+        "dax",
+        "integration",
+        "measures",
+        "power",
+        "refreshes.",
+        "reporting",
+        "sap",
+        "scheduled",
+        "server",
+        "service",
+        "sql",
+        "through",
+        "transformations"
+      ]
+    },
+    {
+      "id": 118,
+      "section": "Power BI & Enterprise Analytics",
+      "question": "What reporting improvement has he achieved?",
+      "answer": "An estimated 40% reduction in manual reporting effort.",
+      "keywords": [
+        "achieved",
+        "effort.",
+        "estimated",
+        "improvement",
+        "manual",
+        "reduction",
+        "reporting"
+      ]
+    },
+    {
+      "id": 119,
+      "section": "Power BI & Enterprise Analytics",
+      "question": "Has Rohit implemented data security in Power BI?",
+      "answer": "Yes. He implemented Row-Level Security for controlled dashboard access.",
+      "keywords": [
+        "access.",
+        "controlled",
+        "dashboard",
+        "data",
+        "implemented",
+        "power",
+        "row-level",
+        "security",
+        "yes."
+      ]
+    },
+    {
+      "id": 120,
+      "section": "Power BI & Enterprise Analytics",
+      "question": "How many people use his Power BI dashboards?",
+      "answer": "Fewer than 50 users, primarily senior management and finance, inventory, and procurement teams. ## Section 9 — Government & Public-Sector Projects (121–135)",
+      "keywords": [
+        "121",
+        "135",
+        "dashboards",
+        "fewer",
+        "finance",
+        "government",
+        "inventory",
+        "management",
+        "many",
+        "people",
+        "power",
+        "primarily",
+        "procurement",
+        "projects",
+        "public-sector",
+        "section",
+        "senior",
+        "teams.",
+        "than",
+        "use",
+        "users"
+      ]
+    },
+    {
+      "id": 121,
+      "section": "Government & Public-Sector Projects",
+      "question": "Has Rohit worked on Government/NIC projects?",
+      "answer": "Yes, through SISL Infotech Private Limited.",
+      "keywords": [
+        "government/nic",
+        "infotech",
+        "limited.",
+        "private",
+        "projects",
+        "sisl",
+        "through",
+        "worked",
+        "yes"
+      ]
+    },
+    {
+      "id": 122,
+      "section": "Government & Public-Sector Projects",
+      "question": "Which government offices were associated with his work?",
+      "answer": "PMO- and CMO-related document processing workflows.",
+      "keywords": [
+        "associated",
+        "cmo-related",
+        "document",
+        "government",
+        "offices",
+        "pmo-",
+        "processing",
+        "work",
+        "workflows."
+      ]
+    },
+    {
+      "id": 123,
+      "section": "Government & Public-Sector Projects",
+      "question": "What is Government Document Intelligence?",
+      "answer": "A descriptive name for his OCR-based PDF/image-to-Word and text conversion project.",
+      "keywords": [
+        "conversion",
+        "descriptive",
+        "document",
+        "government",
+        "intelligence",
+        "name",
+        "ocr-based",
+        "pdf/image-to-word",
+        "project.",
+        "text"
+      ]
+    },
+    {
+      "id": 124,
+      "section": "Government & Public-Sector Projects",
+      "question": "Which OCR technology did Rohit use?",
+      "answer": "Tesseract OCR through Python's pytesseract library.",
+      "keywords": [
+        "library.",
+        "ocr",
+        "pytesseract",
+        "python",
+        "technology",
+        "tesseract",
+        "through",
+        "use"
+      ]
+    },
+    {
+      "id": 125,
+      "section": "Government & Public-Sector Projects",
+      "question": "What were the document processing features?",
+      "answer": "OCR extraction, editable Word/text conversion, layout preservation, batch processing, ZIP processing, and protected outputs.",
+      "keywords": [
+        "batch",
+        "conversion",
+        "document",
+        "editable",
+        "extraction",
+        "features",
+        "layout",
+        "ocr",
+        "outputs.",
+        "preservation",
+        "processing",
+        "protected",
+        "word/text",
+        "zip"
+      ]
+    },
+    {
+      "id": 126,
+      "section": "Government & Public-Sector Projects",
+      "question": "Why was document automation useful?",
+      "answer": "It reduced dependency on manual document conversion and supported more efficient digitization.",
+      "keywords": [
+        "automation",
+        "conversion",
+        "dependency",
+        "digitization.",
+        "document",
+        "efficient",
+        "manual",
+        "more",
+        "reduced",
+        "supported",
+        "useful",
+        "why"
+      ]
+    },
+    {
+      "id": 127,
+      "section": "Government & Public-Sector Projects",
+      "question": "What is Government Scheme Analytics?",
+      "answer": "A forecasting and comparative analytics solution for government scheme implementation across Indian states and regions.",
+      "keywords": [
+        "across",
+        "analytics",
+        "comparative",
+        "forecasting",
+        "government",
+        "implementation",
+        "indian",
+        "regions.",
+        "scheme",
+        "solution",
+        "states"
+      ]
+    },
+    {
+      "id": 128,
+      "section": "Government & Public-Sector Projects",
+      "question": "Which forecasting algorithms were used?",
+      "answer": "ARIMA and SARIMA.",
+      "keywords": [
+        "algorithms",
+        "arima",
+        "forecasting",
+        "sarima.",
+        "used"
+      ]
+    },
+    {
+      "id": 129,
+      "section": "Government & Public-Sector Projects",
+      "question": "Which government schemes were analyzed?",
+      "answer": "Examples include Pradhan Mantri Jan Dhan Yojana and Jal Jeevan Mission.",
+      "keywords": [
+        "analyzed",
+        "dhan",
+        "examples",
+        "government",
+        "include",
+        "jal",
+        "jan",
+        "jeevan",
+        "mantri",
+        "mission.",
+        "pradhan",
+        "schemes",
+        "yojana"
+      ]
+    },
+    {
+      "id": 130,
+      "section": "Government & Public-Sector Projects",
+      "question": "What kind of forecasting data was used?",
+      "answer": "Historical daily scheme implementation observations across states and regions.",
+      "keywords": [
+        "across",
+        "daily",
+        "data",
+        "forecasting",
+        "historical",
+        "implementation",
+        "kind",
+        "observations",
+        "regions.",
+        "scheme",
+        "states",
+        "used"
+      ]
+    },
+    {
+      "id": 131,
+      "section": "Government & Public-Sector Projects",
+      "question": "How did Rohit evaluate forecasting models?",
+      "answer": "Using Mean Absolute Error (MAE) and Root Mean Squared Error (RMSE).",
+      "keywords": [
+        "absolute",
+        "error",
+        "evaluate",
+        "forecasting",
+        "mae",
+        "mean",
+        "models",
+        "rmse",
+        "root",
+        "squared",
+        "using"
+      ]
+    },
+    {
+      "id": 132,
+      "section": "Government & Public-Sector Projects",
+      "question": "How were states and regions ranked?",
+      "answer": "Through scheme-specific KPI analysis, data preprocessing, geographical comparisons, and performance ranking.",
+      "keywords": [
+        "analysis",
+        "comparisons",
+        "data",
+        "geographical",
+        "kpi",
+        "performance",
+        "preprocessing",
+        "ranked",
+        "ranking.",
+        "regions",
+        "scheme-specific",
+        "states",
+        "through"
+      ]
+    },
+    {
+      "id": 133,
+      "section": "Government & Public-Sector Projects",
+      "question": "What was the exact ranking formula?",
+      "answer": "The precise production formula, weights, and normalization methodology are not verified.",
+      "keywords": [
+        "exact",
+        "formula",
+        "methodology",
+        "normalization",
+        "not",
+        "precise",
+        "production",
+        "ranking",
+        "verified.",
+        "weights"
+      ]
+    },
+    {
+      "id": 134,
+      "section": "Government & Public-Sector Projects",
+      "question": "What challenges did government projects address?",
+      "answer": "Document digitization, historical performance analysis, forecasting, and comparing scheme implementation across regions.",
+      "keywords": [
+        "across",
+        "address",
+        "analysis",
+        "challenges",
+        "comparing",
+        "digitization",
+        "document",
+        "forecasting",
+        "government",
+        "historical",
+        "implementation",
+        "performance",
+        "projects",
+        "regions.",
+        "scheme"
+      ]
+    },
+    {
+      "id": 135,
+      "section": "Government & Public-Sector Projects",
+      "question": "What were the outcomes?",
+      "answer": "Automated document processing, forecasting insights, and geographical performance comparisons. Exact efficiency and accuracy improvements remain unverified. ## Section 10 — NLP & Conversational AI (136–145)",
+      "keywords": [
+        "accuracy",
+        "automated",
+        "comparisons.",
+        "document",
+        "efficiency",
+        "exact",
+        "forecasting",
+        "geographical",
+        "improvements",
+        "insights",
+        "outcomes",
+        "performance",
+        "processing",
+        "remain",
+        "unverified."
+      ]
+    },
+    {
+      "id": 136,
+      "section": "NLP & Conversational AI",
+      "question": "Does Rohit have NLP experience?",
+      "answer": "Yes. He worked on an AI/NLP-powered HR chatbot.",
+      "keywords": [
+        "ai/nlp-powered",
+        "chatbot.",
+        "experience",
+        "nlp",
+        "worked",
+        "yes."
+      ]
+    },
+    {
+      "id": 137,
+      "section": "NLP & Conversational AI",
+      "question": "What was the HR chatbot project?",
+      "answer": "A conversational AI solution supporting HR assistance, candidate screening, and interview scheduling.",
+      "keywords": [
+        "assistance",
+        "candidate",
+        "chatbot",
+        "conversational",
+        "interview",
+        "project",
+        "scheduling.",
+        "screening",
+        "solution",
+        "supporting"
+      ]
+    },
+    {
+      "id": 138,
+      "section": "NLP & Conversational AI",
+      "question": "Which NLP frameworks were used?",
+      "answer": "Rasa and spaCy.",
+      "keywords": [
+        "frameworks",
+        "nlp",
+        "rasa",
+        "spacy.",
+        "used"
+      ]
+    },
+    {
+      "id": 139,
+      "section": "NLP & Conversational AI",
+      "question": "Which programming language was used?",
+      "answer": "Python, with SQL-based data integration.",
+      "keywords": [
+        "data",
+        "integration.",
+        "language",
+        "programming",
+        "python",
+        "sql-based",
+        "used"
+      ]
+    },
+    {
+      "id": 140,
+      "section": "NLP & Conversational AI",
+      "question": "Did the chatbot use Machine Learning?",
+      "answer": "Yes. SVM and Logistic Regression were used for classification-related tasks.",
+      "keywords": [
+        "chatbot",
+        "classification-related",
+        "learning",
+        "logistic",
+        "machine",
+        "regression",
+        "svm",
+        "tasks.",
+        "use",
+        "used",
+        "yes."
+      ]
+    },
+    {
+      "id": 141,
+      "section": "NLP & Conversational AI",
+      "question": "What business problem did the HR chatbot solve?",
+      "answer": "It automated repetitive HR interactions and supported candidate-related workflows.",
+      "keywords": [
+        "automated",
+        "business",
+        "candidate-related",
+        "chatbot",
+        "interactions",
+        "problem",
+        "repetitive",
+        "solve",
+        "supported",
+        "workflows."
+      ]
+    },
+    {
+      "id": 142,
+      "section": "NLP & Conversational AI",
+      "question": "Does Rohit understand intent classification?",
+      "answer": "Yes. His HR chatbot experience includes classification and conversational NLP workflows.",
+      "keywords": [
+        "chatbot",
+        "classification",
+        "conversational",
+        "experience",
+        "includes",
+        "intent",
+        "nlp",
+        "understand",
+        "workflows.",
+        "yes."
+      ]
+    },
+    {
+      "id": 143,
+      "section": "NLP & Conversational AI",
+      "question": "Has Rohit worked with conversational AI?",
+      "answer": "Yes, through Rasa/spaCy chatbot development and later LLM-based meeting intelligence integration.",
+      "keywords": [
+        "chatbot",
+        "conversational",
+        "development",
+        "integration.",
+        "intelligence",
+        "later",
+        "llm-based",
+        "meeting",
+        "rasa/spacy",
+        "through",
+        "worked",
+        "yes"
+      ]
+    },
+    {
+      "id": 144,
+      "section": "NLP & Conversational AI",
+      "question": "Does Rohit have speech recognition experience?",
+      "answer": "Yes. He implemented Whisper-based multilingual transcription with native mobile fallbacks.",
+      "keywords": [
+        "experience",
+        "fallbacks.",
+        "implemented",
+        "mobile",
+        "multilingual",
+        "native",
+        "recognition",
+        "speech",
+        "transcription",
+        "whisper-based",
+        "yes."
+      ]
+    },
+    {
+      "id": 145,
+      "section": "NLP & Conversational AI",
+      "question": "What is Rohit's main NLP strength?",
+      "answer": "Combining language processing, classification, conversational workflows, and practical AI integration. ## Section 11 — AI Architecture, Cloud & Engineering (146–160)",
+      "keywords": [
+        "146",
+        "architecture",
+        "classification",
+        "cloud",
+        "combining",
+        "conversational",
+        "engineering",
+        "integration.",
+        "language",
+        "main",
+        "nlp",
+        "practical",
+        "processing",
+        "section",
+        "strength",
+        "workflows"
+      ]
+    },
+    {
+      "id": 146,
+      "section": "AI Architecture, Cloud & Engineering",
+      "question": "Does Rohit have AI architecture experience?",
+      "answer": "Yes. His programme responsibilities include AI solution architecture planning, integration, and deployment coordination.",
+      "keywords": [
+        "architecture",
+        "coordination.",
+        "deployment",
+        "experience",
+        "include",
+        "integration",
+        "planning",
+        "programme",
+        "responsibilities",
+        "solution",
+        "yes."
+      ]
+    },
+    {
+      "id": 147,
+      "section": "AI Architecture, Cloud & Engineering",
+      "question": "Which programming languages does Rohit use?",
+      "answer": "Python and SQL are his primary confirmed programming and data technologies.",
+      "keywords": [
+        "confirmed",
+        "data",
+        "languages",
+        "primary",
+        "programming",
+        "python",
+        "sql",
+        "technologies.",
+        "use"
+      ]
+    },
+    {
+      "id": 148,
+      "section": "AI Architecture, Cloud & Engineering",
+      "question": "Does Rohit develop backend applications?",
+      "answer": "Yes. He has hands-on experience with Django, FastAPI, and REST APIs.",
+      "keywords": [
+        "apis.",
+        "applications",
+        "backend",
+        "develop",
+        "django",
+        "experience",
+        "fastapi",
+        "hands-on",
+        "rest",
+        "yes."
+      ]
+    },
+    {
+      "id": 149,
+      "section": "AI Architecture, Cloud & Engineering",
+      "question": "Has Rohit worked with AWS?",
+      "answer": "He has reported AWS exposure involving SageMaker, Bedrock, EC2, and S3. Specific implementations remain unverified.",
+      "keywords": [
+        "aws",
+        "bedrock",
+        "ec2",
+        "exposure",
+        "implementations",
+        "involving",
+        "remain",
+        "reported",
+        "s3.",
+        "sagemaker",
+        "specific",
+        "unverified.",
+        "worked"
+      ]
+    },
+    {
+      "id": 150,
+      "section": "AI Architecture, Cloud & Engineering",
+      "question": "Does Rohit have on-premises deployment experience?",
+      "answer": "Yes. SWISS is deployed on-premises.",
+      "keywords": [
+        "deployed",
+        "deployment",
+        "experience",
+        "on-premises",
+        "on-premises.",
+        "swiss",
+        "yes."
+      ]
+    },
+    {
+      "id": 151,
+      "section": "AI Architecture, Cloud & Engineering",
+      "question": "Does Rohit use Docker?",
+      "answer": "Yes. He has confirmed hands-on Docker experience; project-specific details are not documented.",
+      "keywords": [
+        "confirmed",
+        "details",
+        "docker",
+        "documented.",
+        "experience",
+        "hands-on",
+        "not",
+        "project-specific",
+        "use",
+        "yes."
+      ]
+    },
+    {
+      "id": 152,
+      "section": "AI Architecture, Cloud & Engineering",
+      "question": "Has Rohit worked with Windows Server?",
+      "answer": "Yes. He has confirmed hands-on Windows Server experience.",
+      "keywords": [
+        "confirmed",
+        "experience.",
+        "hands-on",
+        "server",
+        "windows",
+        "worked",
+        "yes."
+      ]
+    },
+    {
+      "id": 153,
+      "section": "AI Architecture, Cloud & Engineering",
+      "question": "Does Rohit understand REST API integration?",
+      "answer": "Yes. His experience includes Django, FastAPI, authenticated APIs, and enterprise integrations.",
+      "keywords": [
+        "api",
+        "apis",
+        "authenticated",
+        "django",
+        "enterprise",
+        "experience",
+        "fastapi",
+        "includes",
+        "integration",
+        "integrations.",
+        "rest",
+        "understand",
+        "yes."
+      ]
+    },
+    {
+      "id": 154,
+      "section": "AI Architecture, Cloud & Engineering",
+      "question": "Does Rohit have microservices experience?",
+      "answer": "He has confirmed experience with microservices, but specific architecture examples have not yet been documented.",
+      "keywords": [
+        "architecture",
+        "been",
+        "but",
+        "confirmed",
+        "documented.",
+        "examples",
+        "experience",
+        "microservices",
+        "not",
+        "specific",
+        "yet"
+      ]
+    },
+    {
+      "id": 155,
+      "section": "AI Architecture, Cloud & Engineering",
+      "question": "Has Rohit worked with load balancing and caching?",
+      "answer": "He has confirmed experience in these areas; implementation details and performance benchmarks remain unverified.",
+      "keywords": [
+        "areas",
+        "balancing",
+        "benchmarks",
+        "caching",
+        "confirmed",
+        "details",
+        "experience",
+        "implementation",
+        "load",
+        "performance",
+        "remain",
+        "these",
+        "unverified.",
+        "worked"
+      ]
+    },
+    {
+      "id": 156,
+      "section": "AI Architecture, Cloud & Engineering",
+      "question": "How does Rohit approach cloud versus on-premises deployment?",
+      "answer": "Relevant considerations include privacy, infrastructure, latency, connectivity, security, and operational costs. His detailed decision framework is not yet documented.",
+      "keywords": [
+        "approach",
+        "cloud",
+        "connectivity",
+        "considerations",
+        "costs.",
+        "decision",
+        "deployment",
+        "detailed",
+        "docu",
+        "framework",
+        "include",
+        "infrastructure",
+        "latency",
+        "not",
+        "on-premises",
+        "operational",
+        "privacy",
+        "relevant",
+        "security",
+        "versus",
+        "yet"
+      ]
+    },
+    {
+      "id": 157,
+      "section": "AI Architecture, Cloud & Engineering",
+      "question": "Does Rohit understand high-concurrency systems?",
+      "answer": "Yes. He has confirmed experience, although tested throughput and concurrent-user benchmarks are not available.",
+      "keywords": [
+        "although",
+        "available.",
+        "benchmarks",
+        "concurrent-user",
+        "confirmed",
+        "experience",
+        "high-concurrency",
+        "not",
+        "systems",
+        "tested",
+        "throughput",
+        "understand",
+        "yes."
+      ]
+    },
+    {
+      "id": 158,
+      "section": "AI Architecture, Cloud & Engineering",
+      "question": "Has Rohit implemented security controls?",
+      "answer": "Confirmed examples include API-key authentication in enterprise integrations and Row-Level Security in Power BI.",
+      "keywords": [
+        "api-key",
+        "authentication",
+        "bi.",
+        "confirmed",
+        "controls",
+        "enterprise",
+        "examples",
+        "implemented",
+        "include",
+        "integrations",
+        "power",
+        "row-level",
+        "security"
+      ]
+    },
+    {
+      "id": 159,
+      "section": "AI Architecture, Cloud & Engineering",
+      "question": "Has Rohit used Kubernetes, PySpark, or MLflow in production?",
+      "answer": "Production use of these technologies has not been confirmed.",
+      "keywords": [
+        "been",
+        "confirmed.",
+        "kubernetes",
+        "mlflow",
+        "not",
+        "production",
+        "pyspark",
+        "technologies",
+        "these",
+        "use",
+        "used"
+      ]
+    },
+    {
+      "id": 160,
+      "section": "AI Architecture, Cloud & Engineering",
+      "question": "Can Rohit contribute to end-to-end AI architecture?",
+      "answer": "Yes. His experience combines AI development, API integration, on-premises deployment, enterprise analytics, and programme leadership. ## Section 12 — Leadership & Programme Management (161–170)",
+      "keywords": [
+        "analytics",
+        "api",
+        "architecture",
+        "combines",
+        "contribute",
+        "deployment",
+        "development",
+        "end-to-end",
+        "enterprise",
+        "experience",
+        "integration",
+        "leadership",
+        "leadership.",
+        "on-premises",
+        "programme",
+        "section",
+        "yes."
+      ]
+    },
+    {
+      "id": 161,
+      "section": "Leadership & Programme Management",
+      "question": "Does Rohit have leadership experience?",
+      "answer": "Yes. He has managed 25 people across direct and cross-functional teams.",
+      "keywords": [
+        "across",
+        "cross-functional",
+        "direct",
+        "experience",
+        "leadership",
+        "managed",
+        "people",
+        "teams.",
+        "yes."
+      ]
+    },
+    {
+      "id": 162,
+      "section": "Leadership & Programme Management",
+      "question": "What is Rohit's management role?",
+      "answer": "Programme Manager – AI & Digital Transformation at VLCC Healthcare.",
+      "keywords": [
+        "digital",
+        "healthcare.",
+        "management",
+        "manager",
+        "programme",
+        "role",
+        "transformation",
+        "vlcc"
+      ]
+    },
+    {
+      "id": 163,
+      "section": "Leadership & Programme Management",
+      "question": "How many people has Rohit managed?",
+      "answer": "25 people across direct and cross-functional teams.",
+      "keywords": [
+        "across",
+        "cross-functional",
+        "direct",
+        "managed",
+        "many",
+        "people",
+        "teams."
+      ]
+    },
+    {
+      "id": 164,
+      "section": "Leadership & Programme Management",
+      "question": "Which major programmes has Rohit led?",
+      "answer": "SWISS, Geonexis, and enterprise Power BI initiatives.",
+      "keywords": [
+        "enterprise",
+        "geonexis",
+        "initiatives.",
+        "led",
+        "major",
+        "power",
+        "programmes",
+        "swiss"
+      ]
+    },
+    {
+      "id": 165,
+      "section": "Leadership & Programme Management",
+      "question": "Does Rohit coordinate technical and business stakeholders?",
+      "answer": "Yes. Stakeholder coordination and translating business requirements into technical delivery are part of his programme responsibilities.",
+      "keywords": [
+        "business",
+        "coordinate",
+        "coordination",
+        "delivery",
+        "into",
+        "part",
+        "programme",
+        "requirements",
+        "responsibilities.",
+        "stakeholder",
+        "stakeholders",
+        "technical",
+        "translating",
+        "yes."
+      ]
+    },
+    {
+      "id": 166,
+      "section": "Leadership & Programme Management",
+      "question": "How does Rohit manage project delivery?",
+      "answer": "Through requirements planning, architecture coordination, development oversight, testing, deployment management, and stakeholder alignment.",
+      "keywords": [
+        "alignment.",
+        "architecture",
+        "coordination",
+        "delivery",
+        "deployment",
+        "development",
+        "manage",
+        "management",
+        "oversight",
+        "planning",
+        "project",
+        "requirements",
+        "stakeholder",
+        "testing",
+        "through"
+      ]
+    },
+    {
+      "id": 167,
+      "section": "Leadership & Programme Management",
+      "question": "How does Rohit prioritize projects?",
+      "answer": "His specific formal prioritization framework is not documented. His work involves aligning technical delivery with operational business needs.",
+      "keywords": [
+        "aligning",
+        "business",
+        "delivery",
+        "documented.",
+        "formal",
+        "framework",
+        "involves",
+        "needs.",
+        "not",
+        "operational",
+        "prioritization",
+        "prioritize",
+        "projects",
+        "specific",
+        "technical",
+        "work"
+      ]
+    },
+    {
+      "id": 168,
+      "section": "Leadership & Programme Management",
+      "question": "How does Rohit handle risks?",
+      "answer": "He coordinates technical implementation and delivery challenges, but his formal risk-management framework is not yet verified.",
+      "keywords": [
+        "but",
+        "challenges",
+        "coordinates",
+        "delivery",
+        "formal",
+        "framework",
+        "handle",
+        "implementation",
+        "not",
+        "risk-management",
+        "risks",
+        "technical",
+        "verified.",
+        "yet"
+      ]
+    },
+    {
+      "id": 169,
+      "section": "Leadership & Programme Management",
+      "question": "How does Rohit measure programme success?",
+      "answer": "Through solution delivery, operational usefulness, and business outcomes, including reporting efficiency and improved operational visibility.",
+      "keywords": [
+        "business",
+        "delivery",
+        "efficiency",
+        "improved",
+        "including",
+        "measure",
+        "operational",
+        "outcomes",
+        "programme",
+        "reporting",
+        "solution",
+        "success",
+        "through",
+        "usefulness",
+        "visibility."
+      ]
+    },
+    {
+      "id": 170,
+      "section": "Leadership & Programme Management",
+      "question": "Can Rohit lead enterprise digital transformation?",
+      "answer": "Yes. His VLCC responsibilities and major projects demonstrate experience coordinating enterprise AI and digital transformation programmes. ## Section 13 — Education, Research & Certifications (171–180)",
+      "keywords": [
+        "coordinating",
+        "demonstrate",
+        "digital",
+        "educa",
+        "enterprise",
+        "experience",
+        "lead",
+        "major",
+        "programmes.",
+        "projects",
+        "responsibilities",
+        "section",
+        "transformation",
+        "vlcc",
+        "yes."
+      ]
+    },
+    {
+      "id": 171,
+      "section": "Education, Research & Certifications",
+      "question": "What is Rohit's highest qualification?",
+      "answer": "M.Tech in Artificial Intelligence.",
+      "keywords": [
+        "artificial",
+        "highest",
+        "intelligence.",
+        "m.tech",
+        "qualification"
+      ]
+    },
+    {
+      "id": 172,
+      "section": "Education, Research & Certifications",
+      "question": "Where did Rohit complete his M.Tech?",
+      "answer": "NIET, Greater Noida.",
+      "keywords": [
+        "complete",
+        "greater",
+        "m.tech",
+        "niet",
+        "noida."
+      ]
+    },
+    {
+      "id": 173,
+      "section": "Education, Research & Certifications",
+      "question": "When did Rohit complete his M.Tech?",
+      "answer": "2022.",
+      "keywords": [
+        "2022.",
+        "complete",
+        "m.tech"
+      ]
+    },
+    {
+      "id": 174,
+      "section": "Education, Research & Certifications",
+      "question": "What percentage did Rohit achieve in his M.Tech?",
+      "answer": "84%.",
+      "keywords": [
+        "achieve",
+        "m.tech",
+        "percentage"
+      ]
+    },
+    {
+      "id": 175,
+      "section": "Education, Research & Certifications",
+      "question": "Does Rohit have a bachelor's degree?",
+      "answer": "Yes. He completed a B.Tech in Electronics and Communication from Jamia Hamdard (2015–2019) with 70%.",
+      "keywords": [
+        "2015",
+        "2019",
+        "b.tech",
+        "bachelor",
+        "communication",
+        "completed",
+        "degree",
+        "electronics",
+        "from",
+        "hamdard",
+        "jamia",
+        "yes."
+      ]
+    },
+    {
+      "id": 176,
+      "section": "Education, Research & Certifications",
+      "question": "Has Rohit worked on research projects?",
+      "answer": "Rohit has two research papers. 1. Drowsiness Alertness for Driver Safety, published by IEEE: https://ieeexplore.ieee.org/document/10040365. 2. Covid Analysis Using Machine Learning Technique, published by Springer on 2 March 2023: https://link.springer.com/chapter/10.1007/978-981-19-7402-1_26. It is also listed on ResearchGate: https://www.researchgate.net/publication/368921483_Covid_Analysis_Using_Machine_Learning_Technique.",
+      "keywords": [
+        "analysis",
+        "covid-19",
+        "detection",
+        "driver",
+        "drowsiness",
+        "ieee",
+        "learning.",
+        "machine",
+        "paper",
+        "papers",
+        "publication",
+        "published",
+        "projects",
+        "research",
+        "researchgate",
+        "springer",
+        "using",
+        "worked",
+        "yes."
+      ]
+    },
+    {
+      "id": 177,
+      "section": "Education, Research & Certifications",
+      "question": "What is Rohit's IEEE-related research?",
+      "answer": "Driver Drowsiness Detection using OpenCV and Machine Learning, including EAR/MAR-based fatigue indicators. The IEEE paper is Drowsiness Alertness for Driver Safety: https://ieeexplore.ieee.org/document/10040365",
+      "keywords": [
+        "detection",
+        "driver",
+        "drowsiness",
+        "ear/mar-based",
+        "fatigue",
+        "ieee-related",
+        "including",
+        "indicators.",
+        "learning",
+        "machine",
+        "opencv",
+        "research",
+        "using"
+      ]
+    },
+    {
+      "id": 178,
+      "section": "Education, Research & Certifications",
+      "question": "Does Rohit have a Springer publication?",
+      "answer": "Yes. Covid Analysis Using Machine Learning Technique was published by Springer on 2 March 2023, in Inventive Computation and Information Technologies, Lecture Notes in Networks and Systems, volume 563, pages 369–383. Springer lists the authors as Rohit Gussain, Nitin Kumar, Minshul Sharma, and Pooja Dehraj. Chapter: https://link.springer.com/chapter/10.1007/978-981-19-7402-1_26. DOI: https://doi.org/10.1007/978-981-19-7402-1_26. It is also listed on ResearchGate: https://www.researchgate.net/publication/368921483_Covid_Analysis_Using_Machine_Learning_Technique.",
+      "keywords": [
+        "claimed",
+        "confirmation.",
+        "covid-19",
+        "learning",
+        "machine",
+        "not",
+        "publication",
+        "remains",
+        "research",
+        "springer",
+        "unverified.",
+        "venue",
+        "without"
+      ]
+    },
+    {
+      "id": 179,
+      "section": "Education, Research & Certifications",
+      "question": "What certifications does Rohit have?",
+      "answer": "Certificates listed on the portfolio include Machine Learning from CETPA Infotech (November 2019), Machine Learning with Python from IBM and ExcelR (October 2023), Data Science from ExcelR (September 2023), Cloud Computing with Amazon Web Services from Udemy (2018), AI Fundamentals and the Cloud from AWS and Coursera (May 2026), and Python (November 2019). The portfolio also lists Tableau, Linux, Embedded Systems, Internet of Things, Web Development, a data science training certificate, and a data science internship.",
+      "keywords": [
+        "aws",
+        "certifications",
+        "cloud",
+        "computing",
+        "data",
+        "excelr",
+        "holds",
+        "ibm",
+        "learning",
+        "machine",
+        "python",
+        "science",
+        "tableau",
+        "training",
+        "udemy"
+      ]
+    },
+    {
+      "id": 180,
+      "section": "Education, Research & Certifications",
+      "question": "How does Rohit continue learning?",
+      "answer": "He explores new AI technologies, Generative AI, intelligent automation, emerging frameworks, and practical engineering applications. ## Section 14 — Hiring, Collaboration & Career (181–190)",
+      "keywords": [
+        "applications.",
+        "automation",
+        "col",
+        "continue",
+        "emerging",
+        "engineering",
+        "explores",
+        "frameworks",
+        "generative",
+        "hiring",
+        "intelligent",
+        "learning",
+        "new",
+        "practical",
+        "section",
+        "technologies"
+      ]
+    },
+    {
+      "id": 181,
+      "section": "Hiring, Collaboration & Career",
+      "question": "Is Rohit open to job opportunities?",
+      "answer": "Yes. He is interested in suitable permanent, full-time AI and technology leadership opportunities.",
+      "keywords": [
+        "full-time",
+        "interested",
+        "job",
+        "leadership",
+        "open",
+        "opportunities",
+        "opportunities.",
+        "permanent",
+        "suitable",
+        "technology",
+        "yes."
+      ]
+    },
+    {
+      "id": 182,
+      "section": "Hiring, Collaboration & Career",
+      "question": "What is Rohit's next career goal?",
+      "answer": "AI Architect.",
+      "keywords": [
+        "architect.",
+        "career",
+        "goal",
+        "next"
+      ]
+    },
+    {
+      "id": 183,
+      "section": "Hiring, Collaboration & Career",
+      "question": "Which roles interest Rohit?",
+      "answer": "AI Architect, AI Solutions Architect, senior AI engineering, AI programme leadership, and related enterprise AI roles.",
+      "keywords": [
+        "architect",
+        "engineering",
+        "enterprise",
+        "interest",
+        "leadership",
+        "programme",
+        "related",
+        "roles",
+        "roles.",
+        "senior",
+        "solutions"
+      ]
+    },
+    {
+      "id": 184,
+      "section": "Hiring, Collaboration & Career",
+      "question": "What work locations does Rohit prefer?",
+      "answer": "Delhi, Gurugram, Noida, NCR, and suitable remote opportunities.",
+      "keywords": [
+        "delhi",
+        "gurugram",
+        "locations",
+        "ncr",
+        "noida",
+        "opportunities.",
+        "prefer",
+        "remote",
+        "suitable",
+        "work"
+      ]
+    },
+    {
+      "id": 185,
+      "section": "Hiring, Collaboration & Career",
+      "question": "Is Rohit open to remote or hybrid work?",
+      "answer": "Yes. He is open to office, hybrid, and remote arrangements.",
+      "keywords": [
+        "arrangements.",
+        "hybrid",
+        "office",
+        "open",
+        "remote",
+        "work",
+        "yes."
+      ]
+    },
+    {
+      "id": 186,
+      "section": "Hiring, Collaboration & Career",
+      "question": "Is Rohit willing to relocate?",
+      "answer": "He primarily prefers NCR or remote work and may consider relocation for an exceptional opportunity.",
+      "keywords": [
+        "consider",
+        "exceptional",
+        "may",
+        "ncr",
+        "opportunity.",
+        "prefers",
+        "primarily",
+        "relocate",
+        "relocation",
+        "remote",
+        "willing",
+        "work"
+      ]
+    },
+    {
+      "id": 187,
+      "section": "Hiring, Collaboration & Career",
+      "question": "Why should a company hire Rohit?",
+      "answer": "He combines practical AI expertise, enterprise-scale implementation experience, leadership of 25 people, and delivery of major AI and analytics initiatives.",
+      "keywords": [
+        "analytics",
+        "combines",
+        "company",
+        "delivery",
+        "enterprise-scale",
+        "experience",
+        "expertise",
+        "hire",
+        "implementation",
+        "initiatives.",
+        "leadership",
+        "major",
+        "people",
+        "practical",
+        "why"
+      ]
+    },
+    {
+      "id": 188,
+      "section": "Hiring, Collaboration & Career",
+      "question": "Which industries could benefit from Rohit's expertise?",
+      "answer": "Healthcare, enterprise technology, consulting, government, HR technology, retail operations, and other data-intensive industries.",
+      "keywords": [
+        "benefit",
+        "consulting",
+        "could",
+        "data-intensive",
+        "enterprise",
+        "expertise",
+        "from",
+        "government",
+        "healthcare",
+        "industries",
+        "industries.",
+        "operations",
+        "other",
+        "retail",
+        "technology"
+      ]
+    },
+    {
+      "id": 189,
+      "section": "Hiring, Collaboration & Career",
+      "question": "Is Rohit available for freelance AI consulting?",
+      "answer": "Yes.",
+      "keywords": [
+        "available",
+        "consulting",
+        "freelance",
+        "yes."
+      ]
+    },
+    {
+      "id": 190,
+      "section": "Hiring, Collaboration & Career",
+      "question": "Can Rohit build AI solutions for businesses?",
+      "answer": "Yes. He is available for AI consulting and end-to-end AI solution development. ## Section 15 — Contact, Portfolio & General (191–200)",
+      "keywords": [
+        "191",
+        "200",
+        "available",
+        "build",
+        "businesses",
+        "consulting",
+        "contact",
+        "development.",
+        "end-to-end",
+        "general",
+        "portfolio",
+        "section",
+        "solution",
+        "solutions",
+        "yes."
+      ]
+    },
+    {
+      "id": 191,
+      "section": "Contact, Portfolio & General",
+      "question": "Does Rohit have a portfolio website?",
+      "answer": "Yes, https://meetrohit.in/.",
+      "keywords": [
+        "//meetrohit.in/.",
+        "https",
+        "portfolio",
+        "website",
+        "yes"
+      ]
+    },
+    {
+      "id": 192,
+      "section": "Contact, Portfolio & General",
+      "question": "What is Rohit's LinkedIn profile?",
+      "answer": "https://www.linkedin.com/in/rohit-gusain-4aa831142/.",
+      "keywords": [
+        "//www.linkedin.com/in/rohit-gusain-4aa831142/.",
+        "https",
+        "linkedin",
+        "profile"
+      ]
+    },
+    {
+      "id": 193,
+      "section": "Contact, Portfolio & General",
+      "question": "What is Rohit's professional email?",
+      "answer": "jhurohit@gmail.com.",
+      "keywords": [
+        "email",
+        "gmail.com.",
+        "jhurohit",
+        "professional"
+      ]
+    },
+    {
+      "id": 194,
+      "section": "Contact, Portfolio & General",
+      "question": "How can recruiters contact Rohit?",
+      "answer": "Through his portfolio website, LinkedIn, or email.",
+      "keywords": [
+        "contact",
+        "email.",
+        "linkedin",
+        "portfolio",
+        "recruiters",
+        "through",
+        "website"
+      ]
+    },
+    {
+      "id": 195,
+      "section": "Contact, Portfolio & General",
+      "question": "Can someone view Rohit's projects online?",
+      "answer": "Yes. His portfolio website provides information about his experience, projects, and professional capabilities.",
+      "keywords": [
+        "capabilities.",
+        "experience",
+        "information",
+        "online",
+        "portfolio",
+        "professional",
+        "projects",
+        "provides",
+        "someone",
+        "view",
+        "website",
+        "yes."
+      ]
+    },
+    {
+      "id": 196,
+      "section": "Contact, Portfolio & General",
+      "question": "How can someone discuss an AI project with Rohit?",
+      "answer": "Contact him through meetrohit.in, LinkedIn, or jhurohit@gmail.com.",
+      "keywords": [
+        "contact",
+        "discuss",
+        "gmail.com.",
+        "jhurohit",
+        "linkedin",
+        "meetrohit.in",
+        "project",
+        "someone",
+        "through"
+      ]
+    },
+    {
+      "id": 197,
+      "section": "Contact, Portfolio & General",
+      "question": "Does Rohit offer AI consulting?",
+      "answer": "Yes. He is available for freelance AI consulting.",
+      "keywords": [
+        "available",
+        "consulting",
+        "consulting.",
+        "freelance",
+        "offer",
+        "yes."
+      ]
+    },
+    {
+      "id": 198,
+      "section": "Contact, Portfolio & General",
+      "question": "Can Rohit develop a custom AI solution?",
+      "answer": "Yes. His experience covers AI/ML, Computer Vision, NLP, automation, analytics, and end-to-end AI solutions.",
+      "keywords": [
+        "ai/ml",
+        "analytics",
+        "automation",
+        "computer",
+        "covers",
+        "custom",
+        "develop",
+        "end-to-end",
+        "experience",
+        "nlp",
+        "solution",
+        "solutions.",
+        "vision",
+        "yes."
+      ]
+    },
+    {
+      "id": 199,
+      "section": "Contact, Portfolio & General",
+      "question": "Where can I learn more about Rohit?",
+      "answer": "Visit meetrohit.in or his LinkedIn profile.",
+      "keywords": [
+        "learn",
+        "linkedin",
+        "meetrohit.in",
+        "more",
+        "profile.",
+        "visit"
+      ]
+    },
+    {
+      "id": 200,
+      "section": "Contact, Portfolio & General",
+      "question": "How can I request Rohit's resume or arrange a discussion?",
+      "answer": "Contact him through his portfolio, LinkedIn, or professional email. ## Section 16 — Personal Profile (201–215)",
+      "keywords": [
+        "201",
+        "215",
+        "arrange",
+        "contact",
+        "discussion",
+        "email.",
+        "linkedin",
+        "personal",
+        "portfolio",
+        "professional",
+        "profile",
+        "request",
+        "resume",
+        "section",
+        "through"
+      ]
+    },
+    {
+      "id": 201,
+      "section": "Personal Profile",
+      "question": "What is Rohit's full name?",
+      "answer": "Rohit Gusain.",
+      "keywords": [
+        "full",
+        "gusain.",
+        "name"
+      ]
+    },
+    {
+      "id": 202,
+      "section": "Personal Profile",
+      "question": "How old is Rohit?",
+      "answer": "Rohit was born on 28 October 1996. He is currently 29 years old as of 12 October 2026.",
+      "keywords": [
+        "1996.",
+        "2026.",
+        "born",
+        "currently",
+        "october",
+        "old",
+        "years"
+      ]
+    },
+    {
+      "id": 203,
+      "section": "Personal Profile",
+      "question": "Where is Rohit from?",
+      "answer": "His hometown is in Pauri Garhwal, Uttarakhand.",
+      "keywords": [
+        "from",
+        "garhwal",
+        "hometown",
+        "pauri",
+        "uttarakhand."
+      ]
+    },
+    {
+      "id": 204,
+      "section": "Personal Profile",
+      "question": "Where was Rohit born?",
+      "answer": "Delhi, India.",
+      "keywords": [
+        "born",
+        "delhi",
+        "india."
+      ]
+    },
+    {
+      "id": 205,
+      "section": "Personal Profile",
+      "question": "Where did Rohit grow up?",
+      "answer": "Delhi.",
+      "keywords": [
+        "delhi.",
+        "grow"
+      ]
+    },
+    {
+      "id": 206,
+      "section": "Personal Profile",
+      "question": "What is Rohit's nationality?",
+      "answer": "Indian.",
+      "keywords": [
+        "indian.",
+        "nationality"
+      ]
+    },
+    {
+      "id": 207,
+      "section": "Personal Profile",
+      "question": "Which languages does Rohit speak?",
+      "answer": "English, Hindi, and Garhwali.",
+      "keywords": [
+        "english",
+        "garhwali.",
+        "hindi",
+        "languages",
+        "speak"
+      ]
+    },
+    {
+      "id": 208,
+      "section": "Personal Profile",
+      "question": "Where does Rohit currently live?",
+      "answer": "He is based in Delhi, India.",
+      "keywords": [
+        "based",
+        "currently",
+        "delhi",
+        "india.",
+        "live"
+      ]
+    },
+    {
+      "id": 209,
+      "section": "Personal Profile",
+      "question": "What is Rohit's hometown?",
+      "answer": "Pauri Garhwal, Uttarakhand.",
+      "keywords": [
+        "garhwal",
+        "hometown",
+        "pauri",
+        "uttarakhand."
+      ]
+    },
+    {
+      "id": 210,
+      "section": "Personal Profile",
+      "question": "What is Rohit's educational background?",
+      "answer": "He completed an M.Tech in Artificial Intelligence at NIET, Greater Noida, after earlier undergraduate studies.",
+      "keywords": [
+        "after",
+        "artificial",
+        "background",
+        "completed",
+        "earlier",
+        "educational",
+        "greater",
+        "intelligence",
+        "m.tech",
+        "niet",
+        "noida",
+        "studies.",
+        "undergraduate"
+      ]
+    },
+    {
+      "id": 211,
+      "section": "Personal Profile",
+      "question": "What inspired Rohit to pursue AI?",
+      "answer": "His passion for innovation and solving real-world problems through intelligent technologies.",
+      "keywords": [
+        "innovation",
+        "inspired",
+        "intelligent",
+        "passion",
+        "problems",
+        "pursue",
+        "real-world",
+        "solving",
+        "technologies.",
+        "through"
+      ]
+    },
+    {
+      "id": 212,
+      "section": "Personal Profile",
+      "question": "Why did Rohit choose technology as a career?",
+      "answer": "He was fascinated by how intelligent systems can automate complex processes, analyze data, and improve decisions.",
+      "keywords": [
+        "analyze",
+        "automate",
+        "career",
+        "choose",
+        "complex",
+        "data",
+        "decisions.",
+        "fascinated",
+        "improve",
+        "intelligent",
+        "processes",
+        "systems",
+        "technology",
+        "why"
+      ]
+    },
+    {
+      "id": 213,
+      "section": "Personal Profile",
+      "question": "How did Rohit's professional career begin?",
+      "answer": "His earlier experience included AI/NLP-powered HR chatbot development at Prakhar Software Solutions.",
+      "keywords": [
+        "ai/nlp-powered",
+        "begin",
+        "career",
+        "chatbot",
+        "development",
+        "earlier",
+        "experience",
+        "included",
+        "prakhar",
+        "professional",
+        "software",
+        "solutions."
+      ]
+    },
+    {
+      "id": 214,
+      "section": "Personal Profile",
+      "question": "What motivates Rohit to keep learning?",
+      "answer": "The opportunity to explore emerging AI technologies and transform complex challenges into useful, scalable solutions.",
+      "keywords": [
+        "challenges",
+        "complex",
+        "emerging",
+        "explore",
+        "into",
+        "keep",
+        "learning",
+        "motivates",
+        "opportunity",
+        "scalable",
+        "solutions.",
+        "technologies",
+        "transform",
+        "useful"
+      ]
+    },
+    {
+      "id": 215,
+      "section": "Personal Profile",
+      "question": "How would Rohit describe himself beyond his profession?",
+      "answer": "Someone interested in technology, AI innovation, movies, socializing with friends, and enjoying life outside work. ## Section 17 — Personality, Interests & Lifestyle (216–230)",
+      "keywords": [
+        "beyond",
+        "describe",
+        "enjoying",
+        "friends",
+        "himself",
+        "innovation",
+        "interested",
+        "interests",
+        "life",
+        "movies",
+        "outside",
+        "personality",
+        "profession",
+        "section",
+        "socializing",
+        "someone",
+        "technology",
+        "work."
+      ]
+    },
+    {
+      "id": 216,
+      "section": "Personality, Interests & Lifestyle",
+      "question": "What are Rohit's hobbies?",
+      "answer": "Exploring new technologies, learning about AI innovations, watching movies, socializing with friends, and attending parties.",
+      "keywords": [
+        "attending",
+        "exploring",
+        "friends",
+        "hobbies",
+        "innovations",
+        "learning",
+        "movies",
+        "new",
+        "parties.",
+        "socializing",
+        "technologies",
+        "watching"
+      ]
+    },
+    {
+      "id": 217,
+      "section": "Personality, Interests & Lifestyle",
+      "question": "What does Rohit do in his free time?",
+      "answer": "He enjoys movies, spending time with friends, social activities, and exploring new technologies.",
+      "keywords": [
+        "activities",
+        "enjoys",
+        "exploring",
+        "free",
+        "friends",
+        "movies",
+        "new",
+        "social",
+        "spending",
+        "technologies.",
+        "time"
+      ]
+    },
+    {
+      "id": 218,
+      "section": "Personality, Interests & Lifestyle",
+      "question": "Does Rohit enjoy travelling?",
+      "answer": "He has shown interest in travel and trip planning, although his favourite destinations have not been confirmed.",
+      "keywords": [
+        "although",
+        "been",
+        "confirmed.",
+        "destinations",
+        "enjoy",
+        "favourite",
+        "interest",
+        "not",
+        "planning",
+        "shown",
+        "travel",
+        "travelling",
+        "trip"
+      ]
+    },
+    {
+      "id": 219,
+      "section": "Personality, Interests & Lifestyle",
+      "question": "What are Rohit's favourite travel destinations?",
+      "answer": "His specific favourite destinations have not yet been provided.",
+      "keywords": [
+        "been",
+        "destinations",
+        "favourite",
+        "not",
+        "provided.",
+        "specific",
+        "travel",
+        "yet"
+      ]
+    },
+    {
+      "id": 220,
+      "section": "Personality, Interests & Lifestyle",
+      "question": "Does Rohit like motorcycles?",
+      "answer": "He has shown interest in motorcycles and motorcycle-related visuals.",
+      "keywords": [
+        "interest",
+        "like",
+        "motorcycle-related",
+        "motorcycles",
+        "shown",
+        "visuals."
+      ]
+    },
+    {
+      "id": 221,
+      "section": "Personality, Interests & Lifestyle",
+      "question": "Is Rohit interested in automobiles?",
+      "answer": "Yes. He enjoys exploring automobile technology, vehicle features, and specifications.",
+      "keywords": [
+        "automobile",
+        "automobiles",
+        "enjoys",
+        "exploring",
+        "features",
+        "interested",
+        "specifications.",
+        "technology",
+        "vehicle",
+        "yes."
+      ]
+    },
+    {
+      "id": 222,
+      "section": "Personality, Interests & Lifestyle",
+      "question": "Does Rohit enjoy photography?",
+      "answer": "He has an interest in visual content and image editing, but photography as a regular hobby has not been explicitly confirmed.",
+      "keywords": [
+        "been",
+        "but",
+        "confirmed.",
+        "content",
+        "editing",
+        "enjoy",
+        "explicitly",
+        "hobby",
+        "image",
+        "interest",
+        "not",
+        "photography",
+        "regular",
+        "visual"
+      ]
+    },
+    {
+      "id": 223,
+      "section": "Personality, Interests & Lifestyle",
+      "question": "What technologies interest Rohit personally?",
+      "answer": "Artificial Intelligence, Generative AI, Agentic AI, intelligent automation, and modern application development.",
+      "keywords": [
+        "agentic",
+        "application",
+        "artificial",
+        "automation",
+        "development.",
+        "generative",
+        "intelligence",
+        "intelligent",
+        "interest",
+        "modern",
+        "personally",
+        "technologies"
+      ]
+    },
+    {
+      "id": 224,
+      "section": "Personality, Interests & Lifestyle",
+      "question": "Does Rohit experiment with AI tools?",
+      "answer": "Yes. He enjoys exploring AI innovations and developing technology-related applications.",
+      "keywords": [
+        "applications.",
+        "developing",
+        "enjoys",
+        "experiment",
+        "exploring",
+        "innovations",
+        "technology-related",
+        "tools",
+        "yes."
+      ]
+    },
+    {
+      "id": 225,
+      "section": "Personality, Interests & Lifestyle",
+      "question": "How does Rohit balance work and personal life?",
+      "answer": "He spends personal time with friends, watching movies, socializing, and exploring technologies. A formal work-life balance routine has not been documented.",
+      "keywords": [
+        "balance",
+        "been",
+        "documented.",
+        "exploring",
+        "formal",
+        "friends",
+        "life",
+        "movies",
+        "not",
+        "personal",
+        "routine",
+        "socializing",
+        "spends",
+        "technologies.",
+        "time",
+        "watching",
+        "work",
+        "work-life"
+      ]
+    },
+    {
+      "id": 226,
+      "section": "Personality, Interests & Lifestyle",
+      "question": "What are Rohit's personal goals?",
+      "answer": "To continue growing professionally, become a recognized AI leader, and develop meaningful AI solutions.",
+      "keywords": [
+        "become",
+        "continue",
+        "develop",
+        "goals",
+        "growing",
+        "leader",
+        "meaningful",
+        "personal",
+        "professionally",
+        "recognized",
+        "solutions."
+      ]
+    },
+    {
+      "id": 227,
+      "section": "Personality, Interests & Lifestyle",
+      "question": "What values are important to Rohit?",
+      "answer": "His stated ambitions emphasize innovation, practical problem-solving, continuous learning, and meaningful impact.",
+      "keywords": [
+        "ambitions",
+        "continuous",
+        "emphasize",
+        "impact.",
+        "important",
+        "innovation",
+        "learning",
+        "meaningful",
+        "practical",
+        "problem-solving",
+        "stated",
+        "values"
+      ]
+    },
+    {
+      "id": 228,
+      "section": "Personality, Interests & Lifestyle",
+      "question": "What drives Rohit's curiosity?",
+      "answer": "The potential of emerging technologies to solve real-world challenges and improve how businesses operate.",
+      "keywords": [
+        "businesses",
+        "challenges",
+        "curiosity",
+        "drives",
+        "emerging",
+        "improve",
+        "operate.",
+        "potential",
+        "real-world",
+        "solve",
+        "technologies"
+      ]
+    },
+    {
+      "id": 229,
+      "section": "Personality, Interests & Lifestyle",
+      "question": "How does Rohit usually spend weekends?",
+      "answer": "Partying, catching up with friends, watching movies, or exploring and learning new technologies.",
+      "keywords": [
+        "catching",
+        "exploring",
+        "friends",
+        "learning",
+        "movies",
+        "new",
+        "partying",
+        "spend",
+        "technologies.",
+        "usually",
+        "watching",
+        "weekends"
+      ]
+    },
+    {
+      "id": 230,
+      "section": "Personality, Interests & Lifestyle",
+      "question": "Does Rohit enjoy socializing?",
+      "answer": "Yes. He enjoys spending time with friends, social gatherings, and parties. ## Section 18 — Personal Vision & Ambitions (231–240)",
+      "keywords": [
+        "231",
+        "240",
+        "ambitions",
+        "enjoy",
+        "enjoys",
+        "friends",
+        "gatherings",
+        "parties.",
+        "personal",
+        "section",
+        "social",
+        "socializing",
+        "spending",
+        "time",
+        "vision",
+        "yes."
+      ]
+    },
+    {
+      "id": 231,
+      "section": "Personal Vision & Ambitions",
+      "question": "What is Rohit's long-term professional vision?",
+      "answer": "To become a recognized AI leader and innovator who designs and delivers scalable solutions with meaningful business impact.",
+      "keywords": [
+        "become",
+        "business",
+        "delivers",
+        "designs",
+        "impact.",
+        "innovator",
+        "leader",
+        "long-term",
+        "meaningful",
+        "professional",
+        "recognized",
+        "scalable",
+        "solutions",
+        "vision"
+      ]
+    },
+    {
+      "id": 232,
+      "section": "Personal Vision & Ambitions",
+      "question": "Where does Rohit see himself in five years?",
+      "answer": "He aims to grow into AI architecture and leadership, lead large-scale transformation initiatives, and contribute to intelligent product development. A specific five-year milestone has not been confirmed.",
+      "keywords": [
+        "aims",
+        "architecture",
+        "contribute",
+        "development.",
+        "five",
+        "grow",
+        "himself",
+        "initiatives",
+        "intelligent",
+        "into",
+        "large-scale",
+        "lead",
+        "leadership",
+        "product",
+        "see",
+        "specific",
+        "transformation",
+        "years"
+      ]
+    },
+    {
+      "id": 233,
+      "section": "Personal Vision & Ambitions",
+      "question": "Does Rohit want to build his own AI products?",
+      "answer": "Yes. Building intelligent and scalable AI products is part of his long-term ambition.",
+      "keywords": [
+        "ambition.",
+        "build",
+        "building",
+        "intelligent",
+        "long-term",
+        "own",
+        "part",
+        "products",
+        "scalable",
+        "want",
+        "yes."
+      ]
+    },
+    {
+      "id": 234,
+      "section": "Personal Vision & Ambitions",
+      "question": "What is Engineering Thing AI?",
+      "answer": "Engineering Thing AI is Rohit's personal AI and technology initiative focused on exploring, innovating, and developing intelligent solutions for real-world problems.",
+      "keywords": [
+        "developing",
+        "engineering",
+        "exploring",
+        "focused",
+        "initiative",
+        "innovating",
+        "intelligent",
+        "personal",
+        "prob",
+        "real-world",
+        "solutions",
+        "technology",
+        "thing"
+      ]
+    },
+    {
+      "id": 235,
+      "section": "Personal Vision & Ambitions",
+      "question": "Why did Rohit found Engineering Thing AI?",
+      "answer": "To combine engineering, creativity, and emerging technologies, experiment with AI, build applications, share technical knowledge, and explore intelligent systems.",
+      "keywords": [
+        "applications",
+        "build",
+        "combine",
+        "creativity",
+        "emerging",
+        "engineering",
+        "experiment",
+        "explore",
+        "found",
+        "intelligent",
+        "knowledge",
+        "share",
+        "system",
+        "technical",
+        "technologies",
+        "thing",
+        "why"
+      ]
+    },
+    {
+      "id": 236,
+      "section": "Personal Vision & Ambitions",
+      "question": "What does innovation mean to Rohit?",
+      "answer": "Transforming complex real-world challenges into practical, scalable, and impactful technology solutions.",
+      "keywords": [
+        "challenges",
+        "complex",
+        "impactful",
+        "innovation",
+        "into",
+        "mean",
+        "practical",
+        "real-world",
+        "scalable",
+        "solutions.",
+        "technology",
+        "transforming"
+      ]
+    },
+    {
+      "id": 237,
+      "section": "Personal Vision & Ambitions",
+      "question": "What is Rohit's philosophy about AI?",
+      "answer": "AI should create practical business value, improve operational efficiency, support better decisions, and enable meaningful digital transformation.",
+      "keywords": [
+        "better",
+        "business",
+        "create",
+        "decisions",
+        "digital",
+        "efficiency",
+        "enable",
+        "improve",
+        "meaningful",
+        "operational",
+        "philosophy",
+        "practical",
+        "support",
+        "transformation.",
+        "value"
+      ]
+    },
+    {
+      "id": 238,
+      "section": "Personal Vision & Ambitions",
+      "question": "How does Rohit approach difficult challenges?",
+      "answer": "He focuses on understanding the real-world problem and finding practical technology solutions that can scale and create measurable value.",
+      "keywords": [
+        "approach",
+        "challenges",
+        "create",
+        "difficult",
+        "finding",
+        "focuses",
+        "measurable",
+        "practical",
+        "problem",
+        "real-world",
+        "scale",
+        "solutions",
+        "technology",
+        "that",
+        "understanding",
+        "value."
+      ]
+    },
+    {
+      "id": 239,
+      "section": "Personal Vision & Ambitions",
+      "question": "What is Rohit's biggest ambition?",
+      "answer": "To become a recognized AI leader and innovator, lead major AI transformation programmes, and develop intelligent products with meaningful impact.",
+      "keywords": [
+        "ambition",
+        "become",
+        "biggest",
+        "develop",
+        "impact.",
+        "innovator",
+        "intelligent",
+        "lead",
+        "leader",
+        "major",
+        "meaningful",
+        "products",
+        "programmes",
+        "recognized",
+        "transformation"
+      ]
+    },
+    {
+      "id": 240,
+      "section": "Personal Vision & Ambitions",
+      "question": "What does success mean to Rohit?",
+      "answer": "Building impactful AI solutions, growing as a technology leader, bridging emerging technology with business applications, and creating lasting value.",
+      "keywords": [
+        "applications",
+        "bridging",
+        "building",
+        "business",
+        "creating",
+        "emerging",
+        "growing",
+        "impactful",
+        "lasting",
+        "leader",
+        "mean",
+        "solutions",
+        "success",
+        "technology",
+        "value."
+      ]
+    }
+  ]
+}
