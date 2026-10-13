@@ -2,7 +2,9 @@
   "name": "meetrohit",
   "private": true,
   "scripts": {
+    "predev": "cp node_modules/pdfjs-dist/build/pdf.worker.min.mjs public/pdf.worker.min.mjs",
     "dev": "next dev",
+    "prebuild": "cp node_modules/pdfjs-dist/build/pdf.worker.min.mjs public/pdf.worker.min.mjs",
     "build": "tsx scripts/build-knowledge-base.ts && next build",
     "start": "next start",
     "test": "tsx --test lib/chat-conversation.test.ts lib/knowledge-base/parse-source.test.ts"
@@ -10,6 +12,7 @@
   "dependencies": {
     "gsap": "^3.13.0",
     "next": "^15.5.4",
+    "pdfjs-dist": "^6.4.299",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "three": "^0.180.0"
