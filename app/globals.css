@@ -1816,8 +1816,88 @@ body {
 .hero-signal-thread {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 14px;
   margin-top: 14px;
+}
+
+.hero-signal-turn {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 8px;
+}
+
+.hero-signal-user {
+  align-self: flex-end;
+  max-width: 88%;
+  margin: 0;
+  padding: 8px 12px;
+  border-radius: 14px 14px 4px 14px;
+  background: rgba(255, 255, 255, 0.08);
+  color: rgba(255, 255, 255, 0.82);
+  font-family: var(--font-body);
+  font-size: 13px;
+  line-height: 1.45;
+  overflow-wrap: anywhere;
+}
+
+.hero-signal-assistant {
+  align-self: flex-start;
+  max-width: 100%;
+  padding: 12px 14px;
+  border-radius: 4px 14px 14px 14px;
+  border: 1px solid rgba(255, 90, 31, 0.28);
+  background:
+    linear-gradient(135deg, rgba(255, 90, 31, 0.14), transparent 55%),
+    rgba(0, 0, 0, 0.35);
+}
+
+.hero-signal-assistant.is-idle {
+  max-width: 100%;
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+.hero-signal-md {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: rgba(255, 255, 255, 0.92);
+  font-family: var(--font-body);
+  font-size: 14px;
+  line-height: 1.65;
+  overflow-wrap: anywhere;
+}
+
+.hero-signal-md.is-idle {
+  color: rgba(255, 255, 255, 0.45);
+}
+
+.hero-signal-md p,
+.hero-signal-md ul,
+.hero-signal-md ol {
+  margin: 0;
+}
+
+.hero-signal-md ul,
+.hero-signal-md ol {
+  padding-left: 1.2em;
+}
+
+.hero-signal-md li + li {
+  margin-top: 6px;
+}
+
+.hero-signal-md strong {
+  font-weight: 700;
+  color: #fff;
+}
+
+.hero-signal-md code {
+  padding: 0 4px;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.08);
+  font-size: 0.92em;
+  overflow-wrap: anywhere;
 }
 
 .hero-signal-turn-q {
@@ -1918,9 +1998,9 @@ body {
 .hero-signal-brief-body {
   margin: 0;
   font-family: var(--font-body);
-  font-size: 13.5px;
-  line-height: 1.5;
-  color: rgba(255, 255, 255, 0.9);
+  font-size: 14px;
+  line-height: 1.65;
+  color: rgba(255, 255, 255, 0.92);
 }
 
 .hero-signal-brief-body--idle {
@@ -2062,6 +2142,61 @@ body {
   .hero-signal-panel {
     max-height: min(380px, 50vh);
     width: min(320px, calc(100vw - 24px));
+  }
+
+  .hero-signal-panel.is-fullscreen {
+    position: fixed;
+    top: var(--chat-top, 0px);
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: var(--chat-height, 100dvh);
+    max-height: var(--chat-height, 100dvh);
+    border-radius: 0;
+    border-left: 0;
+    border-right: 0;
+    z-index: 80;
+    padding-top: env(safe-area-inset-top);
+    animation: none;
+  }
+
+  .hero-signal-panel.is-fullscreen .hero-signal-body {
+    min-height: 0;
+  }
+
+  .hero-signal-panel.is-fullscreen .hero-signal-form {
+    padding-bottom: max(12px, env(safe-area-inset-bottom));
+  }
+
+  .hero-signal-panel.is-fullscreen .hero-signal-form input {
+    height: 44px;
+    font-size: 16px;
+  }
+
+  .hero-signal-panel.is-fullscreen .hero-signal-form button,
+  .hero-signal-panel.is-fullscreen .hero-signal-close {
+    min-width: 44px;
+    min-height: 44px;
+  }
+
+  .about-panel,
+  .experience-panel,
+  .projects-panel,
+  .skills-panel,
+  .certificates-panel,
+  .contact-panel {
+    min-height: 100svh;
+    min-height: 100dvh;
+    height: auto;
+    max-height: none;
+  }
+
+  .hero-shell,
+  .hero {
+    min-height: 100svh;
+    min-height: 100dvh;
+    height: 100dvh;
+    max-height: none;
   }
 }
 

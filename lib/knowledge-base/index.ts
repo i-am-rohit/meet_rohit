@@ -185,7 +185,7 @@ function intent(query: string): KnowledgeMatch | null {
   return null;
 }
 
-function scoreEntry(queryTokens: string[], entry: KnowledgeEntry, sectionBoost: boolean): number {
+function scoreEntry(queryTokens: string[], entry: KnowledgeEntry, sectionBoost: boolean): { score: number; questionHits: number } {
   const questionTokens = new Set(tokenize(entry.question));
   const keywords = keywordTokens(entry);
   const answerTokens = new Set(tokenize(entry.answer).slice(0, 48));
@@ -198,14 +198,15 @@ function scoreEntry(queryTokens: string[], entry: KnowledgeEntry, sectionBoost: 
       score += 3.6 * weight;
       questionHits += 1;
     } else if (keywords.has(token)) score += 2.4 * weight;
-    else if (answerTokens.has(token)) score += 0.9 * weight;
+    else if (answerTokens.has(token)) score += 0.35 * weight;
   }
 
   if (questionHits > 0 && questionTokens.size > 0) {
     score += (questionHits / questionTokens.size) * 1.6;
   }
   if (sectionBoost) score *= 1.3;
-  return score;
+  if (queryTokens.length <= 3 && questionHits === 0) score *= 0.15;
+  return { score, questionHits };
 }
 
 /** Find the best knowledge-base answer for a free-text question. */
@@ -230,7 +231,8 @@ export function matchKnowledge(query: string, options: number | MatchOptions = {
     if (excludeIds.includes(entry.id)) continue;
     if (/\bshadon\b/i.test(`${entry.question} ${entry.answer}`) && !/\bshadon\b/i.test(normalized)) continue;
     const inTopic = allowBoost && entry.section === previousSection;
-    const score = scoreEntry(queryTokens, entry, inTopic) * (inTopic && stickToSection ? 1.45 : 1);
+    const scored = scoreEntry(queryTokens, entry, inTopic);
+    const score = scored.score * (inTopic && stickToSection ? 1.45 : 1);
     if (!best || score > best.score) best = { entry, score };
   }
 

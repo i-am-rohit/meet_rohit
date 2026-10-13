@@ -117,6 +117,120 @@ test("short follow-ups use the previous intent", () => {
   assert.match(which.result.body, /Prakhar Software Solutions/);
 });
 
+test("section headings are not shown in answers", () => {
+  const { result } = ask(emptySession(), "What is Rohit's career objective?");
+  assert.match(result.body, /AI Architect/);
+  assert.doesNotMatch(result.body, /##|Section \d+/);
+});
+
+test("education follow-ups stay on the degree, college, and percentage", () => {
+  let session = ask(emptySession(), "education").session;
+  assert.match(ask(session, "?").result.body, /Would you like to know more about Rohit's education\?/);
+  assert.equal(
+    ask(session, "which college?").result.body,
+    "He completed his M.Tech at NIET, Greater Noida, and his B.Tech at Jamia Hamdard.",
+  );
+  assert.equal(ask(session, "what percentage?").result.body, "He scored 84% in his M.Tech and 70% in his B.Tech.");
+});
+
+test("education lists both degrees, and a named degree stays specific", () => {
+  const both = ask(emptySession(), "what is your education?");
+  assert.match(both.result.body, /\*\*M\.Tech in Artificial Intelligence\*\*/);
+  assert.match(both.result.body, /NIET, Greater Noida/);
+  assert.match(both.result.body, /84%/);
+  assert.match(both.result.body, /\*\*B\.Tech in Electronics and Communication\*\*/);
+  assert.match(both.result.body, /Jamia Hamdard/);
+  assert.match(both.result.body, /70%/);
+
+  const master = ask(emptySession(), "what is your master?");
+  assert.match(master.result.body, /M\.Tech in Artificial Intelligence/);
+  assert.doesNotMatch(master.result.body, /B\.Tech|Jamia/);
+  assert.equal(ask(master.session, "which college?").result.body, "He completed his M.Tech at NIET, Greater Noida.");
+
+  const bachelor = ask(emptySession(), "what is your bachelor?");
+  assert.match(bachelor.result.body, /B\.Tech in Electronics and Communication/);
+  assert.match(bachelor.result.body, /Jamia Hamdard/);
+  assert.doesNotMatch(bachelor.result.body, /M\.Tech|NIET/);
+  assert.equal(ask(bachelor.session, "what percentage?").result.body, "He scored 70% in his B.Tech.");
+});
+
+test("the listed questions stay accurate and do not leak headings", () => {
+  const lines = [
+    "hi",
+    "how are you?",
+    "what is rohit experience?",
+    "education",
+    "?",
+    "what your experience",
+    "How to reach him",
+    "what your achievements",
+    "Core strengths",
+    "What does he do now?",
+    "where are you from?",
+    "and putup?",
+    "in whcih comapnies?",
+  ];
+  let session = emptySession();
+  const answers: string[] = [];
+  for (const line of lines) {
+    const step = ask(session, line);
+    session = step.session;
+    answers.push(step.result.body);
+    assert.equal(step.result.label, "");
+    assert.doesNotMatch(step.result.body, /##\s*Section|\*\*What are|\*\*Experience\*\*|\*\*Ask Me\*\*/);
+  }
+  assert.equal(answers[0], "Hi! I'm Rohit's AI assistant. How can I help you?");
+  assert.match(answers[1], /I'm doing well, thank you/);
+  assert.match(answers[2], /approximately 6 years of experience/);
+  assert.match(answers[3], /M\.Tech in Artificial Intelligence/);
+  assert.match(answers[3], /NIET, Greater Noida, completed in 2022 with 84%/);
+  assert.equal(answers[4], "Would you like to know more about Rohit's education?");
+  assert.match(answers[5], /approximately 6 years of experience/);
+  assert.match(answers[6], /\[meetrohit\.in\]\(https:\/\/meetrohit\.in\/\)/);
+  assert.match(answers[6], /\[LinkedIn\]\(https:\/\/www\.linkedin\.com\/in\/rohit-gusain-4aa831142\/\)/);
+  assert.match(answers[6], /mailto:jhurohit@gmail\.com/);
+  assert.match(answers[7], /\*\*SWISS:\*\*/);
+  assert.match(answers[7], /\*\*Geonexis:\*\*/);
+  assert.match(answers[7], /175\+ VLCC locations/);
+  assert.match(answers[7], /25 enterprise dashboards/);
+  assert.doesNotMatch(answers[7], /Section 3|digital transformation programmes/);
+  assert.match(answers[8], /AI solution planning/);
+  assert.match(answers[9], /Programme Manager – AI & Digital Transformation at VLCC Healthcare Limited/);
+  assert.match(answers[10], /Pauri Garhwal/);
+  assert.match(answers[11], /currently based in Delhi, India/);
+  assert.match(answers[12], /VLCC Healthcare/);
+  assert.match(answers[12], /GlobalLogic \(Google-related projects\)/);
+  assert.ok(answers.every((answer) => !/## Section|localhost/.test(answer)));
+});
+
+test("formatted answers stay grounded for education, role, and achievements", () => {
+  const education = ask(emptySession(), "Education");
+  assert.match(education.result.body, /\*\*M\.Tech in Artificial Intelligence\*\*/);
+  assert.match(education.result.body, /\*\*B\.Tech in Electronics and Communication\*\*/);
+  assert.match(education.result.body, /Jamia Hamdard/);
+  assert.doesNotMatch(education.result.body, /##|Section \d+/);
+
+  const role = ask(emptySession(), "What does Rohit do now?");
+  assert.match(role.result.body, /\*\*Programme Manager – AI & Digital Transformation at VLCC Healthcare Limited\*\*/);
+  assert.match(role.result.body, /SWISS, Geonexis, and Power BI analytics/);
+
+  const achievements = ask(emptySession(), "Tell me about his achievements.");
+  assert.match(achievements.result.body, /1\. \*\*SWISS:\*\*/);
+  assert.match(achievements.result.body, /175\+ VLCC locations/);
+  assert.match(achievements.result.body, /2\. \*\*Geonexis:\*\*/);
+  assert.match(achievements.result.body, /3\. \*\*Power BI:\*\*/);
+  assert.doesNotMatch(achievements.result.body, /## Section/);
+});
+
+test("education does not return the leadership answer", () => {
+  const { result } = ask(emptySession(), "education");
+  assert.match(result.body, /\*\*M\.Tech in Artificial Intelligence\*\*/);
+  assert.match(result.body, /Jamia Hamdard/);
+  assert.match(result.body, /70%/);
+  assert.doesNotMatch(result.body, /VLCC responsibilities|##|Section 13/);
+  assert.equal(result.label, "");
+});
+
 test("unknown questions ask for clarification instead of a biography", () => {
   const { result } = ask(emptySession(), "what is the weather on mars");
   assert.match(result.body, /hasn't been confirmed/i);

@@ -165,10 +165,12 @@ function asksForMore(query: string): boolean {
 
 function cleanAnswer(text: string): string {
   return text
+    .replace(/\s*##\s+Section\s+\d+\b[^\n]*/gi, "")
     .split("\n")
-    .filter((line) => !/^#{1,6}\s+/.test(line.trim()))
+    .map((line) => line.replace(/^#{1,6}\s+/, "").trim())
+    .filter(Boolean)
     .join("\n")
-    .replace(/\s+\n/g, "\n")
+    .replace(/[ \t]{2,}/g, " ")
     .trim();
 }
 
@@ -243,7 +245,6 @@ export function answerInContext(question: string, session: ChatSession): {
   let composed: string | null = null;
   let intent: string | null = classified?.intent ?? null;
   let entity = classified?.entity ?? null;
-  let label = classified?.label ?? "";
 
   if (classified && classified.confidence >= 0.74) {
     const entry = getEntryById(classified.entryId);
@@ -258,7 +259,6 @@ export function answerInContext(question: string, session: ChatSession): {
         composed = tech.text;
         intent = "technical_skills";
         entity = topic;
-        label = "Technology";
       }
     }
   } else if (followUp && !switched && asksForMore(trimmed) && working.section) {
@@ -285,14 +285,13 @@ export function answerInContext(question: string, session: ChatSession): {
   if (!composed && match) composed = cleanAnswer(match.entry.answer);
   if (!composed) {
     composed = CLARIFICATION;
-    label = "Ask Me";
     intent = working.intent;
     entity = working.entity;
   }
   const turn: ChatTurn = {
     question: trimmed,
     answer: "",
-    label: label || match?.entry.question || "Ask Me",
+    label: "",
     entryId: match?.entry.id ?? null,
     section: nextSection,
     topic: nextTopic,
@@ -331,7 +330,7 @@ export function applyServerTurn(
   const turn: ChatTurn = {
     question: question.trim().slice(0, MAX_TEXT),
     answer: answer.slice(0, MAX_TEXT),
-    label: label.slice(0, 240) || question,
+    label: label.slice(0, 240),
     entryId: meta.entryId,
     section: meta.section,
     topic: meta.topic,

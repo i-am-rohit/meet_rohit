@@ -72,9 +72,9 @@ export function resolveAnswer(input: string, session: ChatSession): ResolvedAnsw
   const q = input.toLowerCase().trim();
   const greeting = spokenGreeting(input);
   if (greeting) {
-    const next = appendExchange(session, input.trim(), greeting.label, greeting.body);
+    const next = appendExchange(session, input.trim(), "", greeting.body);
     return {
-      label: greeting.label,
+      label: "",
       body: greeting.body,
       entryId: null,
       topic: next.topic,
@@ -88,15 +88,15 @@ export function resolveAnswer(input: string, session: ChatSession): ResolvedAnsw
     const body = enrichAnswerLinks(
       `You can [open my resume PDF](${resumePdf}), or contact me via [meetrohit.in](${facts.website}), [LinkedIn](${facts.linkedin}), or [${facts.email}](mailto:${facts.email}).`,
     );
-    const next = appendExchange(session, input.trim(), "Resume", body);
-    return { label: "Resume", body, entryId: null, topic: next.topic, section: next.section, intent: session.intent, entity: session.entity };
+    const next = appendExchange(session, input.trim(), "", body);
+    return { label: "", body, entryId: null, topic: next.topic, section: next.section, intent: session.intent, entity: session.entity };
   }
 
   const result = answerInContext(input, session);
   const saved = result.session;
   const body = enrichAnswerLinks(result.composed ?? result.match?.entry.answer ?? "That hasn't been confirmed in Rohit's profile. Ask about his work, projects, education, hometown, or how to reach him.");
   return {
-    label: saved.turns.at(-1)?.label || result.match?.entry.question || "Ask Me",
+    label: "",
     body,
     entryId: result.match?.entry.id ?? null,
     topic: saved.topic,

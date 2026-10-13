@@ -3,9 +3,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "tsx scripts/build-knowledge-base.ts && next build",
     "start": "next start",
-    "test": "tsx --test lib/chat-conversation.test.ts"
+    "test": "tsx --test lib/chat-conversation.test.ts lib/knowledge-base/parse-source.test.ts"
   },
   "dependencies": {
     "gsap": "^3.13.0",

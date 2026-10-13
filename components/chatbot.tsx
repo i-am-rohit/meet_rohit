@@ -1,14 +1,13 @@
 "use client";
 
-import { FormEvent, ReactNode, useEffect, useRef, useState } from "react";
+import { FormEvent, useEffect, useRef, useState } from "react";
+import { createPortal } from "react-dom";
 import { applyServerTurn, emptySession, parseSession, type ChatSession } from "@/lib/chat-memory";
 import { resolveAnswer } from "@/lib/chat-answer";
 import { buildChatRequest, parseChatResponse } from "@/lib/chat-request";
-import { enrichAnswerLinks, safeHref } from "@/lib/chat-links";
-import {
-  getEntryById,
-  knowledgeBase,
-} from "@/lib/knowledge-base";
+import { enrichAnswerLinks } from "@/lib/chat-links";
+import { getEntryById } from "@/lib/knowledge-base";
+import { ChatMarkdown } from "@/components/chat-markdown";
 
 type Brief = {
   id: string;
@@ -39,71 +38,6 @@ const topics: Brief[] = [
   fromEntry(11, "Core strengths"),
   fromEntry(191, "How to reach him"),
 ];
-
-function linkProps(href: string) {
-  const safe = safeHref(href);
-  if (!safe) return null;
-  const external = /^https?:\/\//i.test(safe);
-  return {
-    href: safe,
-    ...(external ? { target: "_blank" as const, rel: "noopener noreferrer" } : {}),
-  };
-}
-
-function BriefBody({ text }: { text: string }) {
-  const nodes: ReactNode[] = [];
-  const pattern =
-    /\[([^\]]+)\]\(([^)]+)\)|(https?:\/\/[^\s]+)|([a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,})|(\+\d[\d\s-]{8,}\d)/g;
-
-  let lastIndex = 0;
-  let match: RegExpExecArray | null;
-  let key = 0;
-
-  while ((match = pattern.exec(text)) !== null) {
-    if (match.index > lastIndex) nodes.push(text.slice(lastIndex, match.index));
-
-    if (match[1] && match[2]) {
-      const props = linkProps(match[2]);
-      nodes.push(props ? (
-        <a key={key++} className="hero-signal-brief-link" {...props}>
-          {match[1]}
-        </a>
-      ) : match[1]);
-    } else if (match[3]) {
-      const href = match[3].replace(/[.,)]+$/, "");
-      const trailing = match[3].slice(href.length);
-      const props = linkProps(href);
-      if (props) {
-        nodes.push(
-          <a key={key++} className="hero-signal-brief-link" {...props}>
-            {href.replace(/^https?:\/\//, "").replace(/\/$/, "")}
-          </a>,
-        );
-      } else nodes.push(href);
-      if (trailing) nodes.push(trailing);
-    } else if (match[4]) {
-      nodes.push(
-        <a key={key++} className="hero-signal-brief-link" href={`mailto:${match[4]}`}>
-          {match[4]}
-        </a>,
-      );
-    } else if (match[5]) {
-      const label = match[5];
-      const digits = label.replace(/\D/g, "");
-      const href = digits === "918130464346" ? `https://wa.me/${digits}` : `tel:+${digits}`;
-      nodes.push(
-        <a key={key++} className="hero-signal-brief-link" {...linkProps(href)}>
-          {label}
-        </a>,
-      );
-    }
-
-    lastIndex = match.index + match[0].length;
-  }
-
-  if (lastIndex < text.length) nodes.push(text.slice(lastIndex));
-  return <p className="hero-signal-brief-body">{nodes}</p>;
-}
 
 const STORAGE_KEY = "meetrohit.ask.v1";
 
@@ -155,7 +89,10 @@ export function Chatbot() {
   const [ready, setReady] = useState(false);
   const [session, setSession] = useState<ChatSession>(() => emptySession());
   const [query, setQuery] = useState("");
-  const threadEnd = useRef<HTMLDivElement>(null);
+  const [mobile, setMobile] = useState(false);
+  const bodyRef = useRef<HTMLDivElement>(null);
+  const toggleRef = useRef<HTMLButtonElement>(null);
+  const stickToBottom = useRef(true);
   const sessionRef = useRef(session);
   const pending = useRef(false);
   const queue = useRef<string[]>([]);
@@ -173,9 +110,75 @@ export function Chatbot() {
   }, [ready, session]);
 
   useEffect(() => {
+    const media = window.matchMedia("(max-width: 767.98px)");
+    const update = () => setMobile(media.matches);
+    update();
+    media.addEventListener("change", update);
+    return () => media.removeEventListener("change", update);
+  }, []);
+
+  useEffect(() => {
+    if (!open || !mobile) return;
+    const y = window.scrollY;
+    const body = document.body;
+    const previous = {
+      overflow: body.style.overflow,
+      position: body.style.position,
+      top: body.style.top,
+      width: body.style.width,
+    };
+    body.style.overflow = "hidden";
+    body.style.position = "fixed";
+    body.style.top = `-${y}px`;
+    body.style.width = "100%";
+    return () => {
+      body.style.overflow = previous.overflow;
+      body.style.position = previous.position;
+      body.style.top = previous.top;
+      body.style.width = previous.width;
+      window.scrollTo(0, y);
+    };
+  }, [open, mobile]);
+
+  useEffect(() => {
+    if (!open || !mobile) return;
+    const root = document.documentElement;
+    const apply = () => {
+      const viewport = window.visualViewport;
+      if (!viewport) return;
+      root.style.setProperty("--chat-height", `${viewport.height}px`);
+      root.style.setProperty("--chat-top", `${viewport.offsetTop}px`);
+    };
+    apply();
+    window.visualViewport?.addEventListener("resize", apply);
+    window.visualViewport?.addEventListener("scroll", apply);
+    return () => {
+      window.visualViewport?.removeEventListener("resize", apply);
+      window.visualViewport?.removeEventListener("scroll", apply);
+      root.style.removeProperty("--chat-height");
+      root.style.removeProperty("--chat-top");
+    };
+  }, [open, mobile]);
+
+  useEffect(() => {
     if (!open) return;
-    threadEnd.current?.scrollIntoView({ block: "nearest" });
+    const onKey = (event: KeyboardEvent) => {
+      if (event.key === "Escape") closeChat();
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [open]);
+
+  useEffect(() => {
+    const el = bodyRef.current;
+    if (!open || !el || !stickToBottom.current) return;
+    el.scrollTop = el.scrollHeight;
   }, [open, session.turns.length]);
+
+  function closeChat() {
+    setOpen(false);
+    toggleRef.current?.focus();
+  }
 
   function ask(text: string) {
     const trimmed = text.trim();
@@ -239,10 +242,13 @@ export function Chatbot() {
 
   const latestId = session.turns.at(-1)?.entryId;
 
-  return (
-    <div className={`hero-signal ${open ? "is-open" : ""}`}>
-      {open ? (
-        <div className="hero-signal-panel" role="dialog" aria-label="Ask Me about Rohit">
+  const panel = open ? (
+        <div
+          className={`hero-signal-panel${mobile ? " is-fullscreen" : ""}`}
+          role="dialog"
+          aria-modal={mobile ? true : undefined}
+          aria-label="Ask Me about Rohit"
+        >
           <div className="hero-signal-glow" aria-hidden="true" />
 
           <header className="hero-signal-header">
@@ -263,14 +269,22 @@ export function Chatbot() {
                 type="button"
                 className="hero-signal-close"
                 aria-label="Close Ask Me"
-                onClick={() => setOpen(false)}
+                onClick={closeChat}
               >
                 Close
               </button>
             </div>
           </header>
 
-          <div className="hero-signal-body">
+          <div
+            className="hero-signal-body"
+            ref={bodyRef}
+            onScroll={() => {
+              const el = bodyRef.current;
+              if (!el) return;
+              stickToBottom.current = el.scrollHeight - el.scrollTop - el.clientHeight < 80;
+            }}
+          >
             <p className="hero-signal-prompt">Ask anything about Rohit.</p>
 
             <ul className="hero-signal-lanes">
@@ -291,19 +305,17 @@ export function Chatbot() {
             {session.turns.length > 0 ? (
               <div className="hero-signal-thread">
                 {session.turns.map((turn, index) => (
-                  <div key={`${session.id}-${index}`} className="hero-signal-brief is-visible">
-                    <p className="hero-signal-turn-q">{turn.question}</p>
-                    <p className="hero-signal-brief-label">{turn.label}</p>
-                    <BriefBody text={turn.answer} />
+                  <div key={`${session.id}-${index}`} className="hero-signal-turn">
+                    <p className="hero-signal-user">{turn.question}</p>
+                    <div className="hero-signal-assistant">
+                      <ChatMarkdown text={turn.answer} />
+                    </div>
                   </div>
                 ))}
-                <div ref={threadEnd} />
               </div>
             ) : (
-              <div className="hero-signal-brief">
-                <p className="hero-signal-brief-body hero-signal-brief-body--idle">
-                  {knowledgeBase.totalQuestions} verified answers ready — work, projects, education, personal profile, and more.
-                </p>
+              <div className="hero-signal-assistant is-idle">
+                <ChatMarkdown idle text="Hi! I'm Rohit's AI assistant. Ask about his work, projects, education, or how to reach him." />
               </div>
             )}
           </div>
@@ -312,6 +324,7 @@ export function Chatbot() {
             className="hero-signal-form"
             onSubmit={(event: FormEvent) => {
               event.preventDefault();
+              stickToBottom.current = true;
               ask(query);
             }}
           >
@@ -321,15 +334,21 @@ export function Chatbot() {
               placeholder="Ask me anything…"
               aria-label="Ask Me"
               autoComplete="off"
+              enterKeyHint="send"
             />
             <button type="submit" aria-label="Ask">
               <span aria-hidden="true">↗</span>
             </button>
           </form>
         </div>
-      ) : null}
+  ) : null;
+
+  return (
+    <div className={`hero-signal ${open ? "is-open" : ""}`}>
+      {panel && mobile && typeof document !== "undefined" ? createPortal(panel, document.body) : panel}
 
       <button
+        ref={toggleRef}
         type="button"
         className="hero-signal-toggle"
         aria-expanded={open}
