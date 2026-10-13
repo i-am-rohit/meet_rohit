@@ -1,9 +1,8 @@
 import { knowledgeBase } from "@/lib/knowledge-base";
 import { answerInContext, appendExchange, type ChatSession } from "@/lib/chat-memory";
-import { enrichAnswerLinks } from "@/lib/chat-links";
+import { enrichAnswerLinks, publicResumeUrl } from "@/lib/chat-links";
 
 const facts = knowledgeBase.profileFacts;
-const resumePdf = "/resume/Rohit%20Gusain.pdf";
 
 export type ResolvedAnswer = {
   label: string;
@@ -86,7 +85,7 @@ export function resolveAnswer(input: string, session: ChatSession): ResolvedAnsw
 
   if (/(resume|cv|curriculum)/.test(q)) {
     const body = enrichAnswerLinks(
-      `You can [open my resume PDF](${resumePdf}), or contact me via [meetrohit.in](${facts.website}), [LinkedIn](${facts.linkedin}), or [${facts.email}](mailto:${facts.email}).`,
+      `You can [open Rohit's resume PDF](${publicResumeUrl}), or contact him via [meetrohit.in](${facts.website}), [LinkedIn](${facts.linkedin}), or [${facts.email}](mailto:${facts.email}).`,
     );
     const next = appendExchange(session, input.trim(), "", body);
     return { label: "", body, entryId: null, topic: next.topic, section: next.section, intent: session.intent, entity: session.entity };

@@ -15,14 +15,14 @@ export const portfolioSupplements: Supplement[] = [
     id: 1001,
     section: "Contact, Portfolio & General",
     question: "What is Rohit's phone number?",
-    answer: "You can call +91 81304 64346 or +91 99903 03070.",
+    answer: "Call Rohit at [+91 81304 64346](tel:+918130464346) or [+91 99903 03070](tel:+919990303070).",
     keywords: ["phone", "mobile", "call", "number", "telephone"],
   },
   {
     id: 1002,
     section: "Contact, Portfolio & General",
     question: "What is Rohit's WhatsApp?",
-    answer: "WhatsApp Rohit on +91 81304 64346: https://wa.me/918130464346",
+    answer: "Message Rohit on WhatsApp at [+91 81304 64346](https://wa.me/918130464346).",
     keywords: ["whatsapp", "wa"],
   },
   {

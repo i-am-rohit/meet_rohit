@@ -1,11 +1,30 @@
 import { knowledgeBase } from "@/lib/knowledge-base";
 
 const facts = knowledgeBase.profileFacts;
+const siteOrigin = facts.website.replace(/\/$/, "");
+
+/** Public resume file in `public/resume`. Built from the site URL so answers never use localhost. */
+export const publicResumeUrl = `${siteOrigin}/resume/Rohit%20Gusain.pdf`;
+
+function resumeHref(value: string): string | null {
+  const local = value.match(/^https?:\/\/(?:localhost|127\.0\.0\.1)(?::\d+)?(\/.*)$/i);
+  const path = local?.[1] ?? value;
+  let decoded = path;
+  try {
+    decoded = decodeURIComponent(path);
+  } catch {
+    decoded = path;
+  }
+  if (/^\/resume\/Rohit Gusain\.pdf$/i.test(decoded)) return publicResumeUrl;
+  return null;
+}
 
 /** Accept only real absolute or site-root links. Never leave a bare domain for the browser to resolve against localhost. */
 export function safeHref(href: string): string | null {
   const value = href.trim().replace(/[.,)]+$/, "");
   if (!value || /\s/.test(value) || value.startsWith("//")) return null;
+  const resume = resumeHref(value);
+  if (resume) return resume;
   if (/^https?:\/\//i.test(value)) {
     if (/^https?:\/\/meetrohit\.in$/i.test(value)) return "https://meetrohit.in/";
     return value;

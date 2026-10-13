@@ -34,7 +34,7 @@ function fromEntry(id: number, label?: string): Brief {
 const topics: Brief[] = [
   fromEntry(1, "Who is Rohit?"),
   fromEntry(2, "What does he do now?"),
-  fromEntry(30, "Standout achievements"),
+  fromEntry(176, "Research papers"),
   fromEntry(11, "Core strengths"),
   fromEntry(191, "How to reach him"),
 ];

@@ -1,4 +1,5 @@
 import type { ChatSession } from "@/lib/chat-memory";
+import { aliasHit, topicById } from "@/lib/chat-topics";
 
 export type IntentId =
   | "greeting"
@@ -11,7 +12,10 @@ export type IntentId =
   | "education"
   | "achievements"
   | "current_role"
-  | "projects";
+  | "projects"
+  | "certifications"
+  | "phone"
+  | "whatsapp";
 
 export type ClassifiedIntent = {
   intent: IntentId;
@@ -64,6 +68,17 @@ const TYPOS: Record<string, string> = {
   tecnologies: "technologies",
   technolgies: "technologies",
   orginially: "originally",
+  bachelros: "bachelors",
+  bachlors: "bachelors",
+  bachelr: "bachelor",
+  bachler: "bachelor",
+  bachelo: "bachelor",
+  undergratuate: "undergraduate",
+  undergradute: "undergraduate",
+  certifcates: "certificates",
+  certifcate: "certificate",
+  certificaton: "certification",
+  certificats: "certificates",
 };
 
 const PROJECT = /\b(swiss|geonexis|fusion|shadon|power\s*bi|powerbi|dax|yolo)\b/;
@@ -167,6 +182,30 @@ const INTENTS: Record<
     section: "Professional Experience",
     entity: "SWISS",
   },
+  certifications: {
+    entryId: 179,
+    label: "",
+    answer: topicById("certifications")?.answer ?? "",
+    topic: "certifications",
+    section: "Education, Research & Certifications",
+    entity: "certificates",
+  },
+  phone: {
+    entryId: 1001,
+    label: "",
+    answer: topicById("phone")?.answer ?? "",
+    topic: "contact",
+    section: "Contact, Portfolio & General",
+    entity: "Rohit",
+  },
+  whatsapp: {
+    entryId: 1002,
+    label: "",
+    answer: topicById("whatsapp")?.answer ?? "",
+    topic: "contact",
+    section: "Contact, Portfolio & General",
+    entity: "Rohit",
+  },
 };
 
 function editDistance(a: string, b: string): number {
@@ -267,6 +306,21 @@ const EXACT: Record<string, IntentId> = {
   contact: "contact",
   "how to reach him": "contact",
   "how to reach you": "contact",
+  certificates: "certifications",
+  certificate: "certifications",
+  certification: "certifications",
+  certifications: "certifications",
+  courses: "certifications",
+  training: "certifications",
+  credentials: "certifications",
+  credential: "certifications",
+  whatsapp: "whatsapp",
+  "whats app": "whatsapp",
+  phone: "phone",
+  mobile: "phone",
+  "mobile number": "phone",
+  "phone number": "phone",
+  "contact number": "phone",
 };
 
 const NUDGE_SUBJECT: Record<string, string> = {
@@ -278,6 +332,7 @@ const NUDGE_SUBJECT: Record<string, string> = {
   "current role": "Rohit's current role",
   projects: "Rohit's projects",
   contact: "how to reach Rohit",
+  certifications: "Rohit's certifications",
   hometown: "Rohit's hometown",
   "current location": "where Rohit lives",
   Geonexis: "Geonexis",
@@ -310,14 +365,16 @@ function onEducation(session: ChatSession): boolean {
 const MTECH_ANSWER =
   "Rohit holds an **M.Tech in Artificial Intelligence** from NIET, Greater Noida, completed in 2022 with 84%.";
 const BTECH_ANSWER =
-  "Rohit holds a **B.Tech in Electronics and Communication** from Jamia Hamdard, completed in 2019 with 70%.";
+  topicById("btech")?.answer ??
+  "He completed his B.Tech in Electronics and Communication from Jamia Hamdard in 2019 with 70%.";
 
 function asksMaster(q: string): boolean {
   return /\b(masters?|m\s*tech|mtech|m\s*rech|mrech|post\s*grad\w*)\b/.test(q);
 }
 
 function asksBachelor(q: string): boolean {
-  return /\b(bachelors?|b\s*tech|btech|under\s*grad\w*)\b/.test(q);
+  if (/\bpost\s*grad/.test(q)) return false;
+  return aliasHit("btech", q) || /\b(bachelors?|b\s*tech|btech|under\s*grad\w*)\b/.test(q);
 }
 
 function educationDetail(q: string, session: ChatSession): ClassifiedIntent | null {
@@ -328,8 +385,13 @@ function educationDetail(q: string, session: ChatSession): ClassifiedIntent | nu
 
   const focus = session.entity;
   if (/\b(college|university|institute)\b/.test(q)) {
-    if (focus === "B.Tech") return pack("education", 0.97, "He completed his B.Tech at Jamia Hamdard.", 175, "B.Tech");
-    if (focus === "M.Tech") return pack("education", 0.97, "He completed his M.Tech at NIET, Greater Noida.", 172, "M.Tech");
+    const universityOnly = /\buniversity\b/.test(q) && !/\b(college|institute)\b/.test(q);
+    if (focus === "B.Tech") {
+      return pack("education", 0.97, universityOnly ? "Jamia Hamdard." : "He completed his B.Tech at Jamia Hamdard.", 175, "B.Tech");
+    }
+    if (focus === "M.Tech") {
+      return pack("education", 0.97, universityOnly ? "NIET, Greater Noida." : "He completed his M.Tech at NIET, Greater Noida.", 172, "M.Tech");
+    }
     return pack(
       "education",
       0.97,
@@ -353,6 +415,9 @@ function educationDetail(q: string, session: ChatSession): ClassifiedIntent | nu
 
 function directIntent(q: string): ClassifiedIntent | null {
   if (EXACT[q]) return pack(EXACT[q], 0.99);
+  if (aliasHit("whatsapp", q)) return pack("whatsapp", 0.98);
+  if (aliasHit("phone", q)) return pack("phone", 0.97);
+  if (aliasHit("certifications", q) && !/\b(model|dataset|neural|yolo|llm)\b/.test(q)) return pack("certifications", 0.96);
   const stay = /\b(put up|putting up|staying|lives|living|live|based|reside|residing|settled)\b/.test(q);
   const origin = /\b(hometown|home town|native|belong|originally|from)\b/.test(q);
   if (stay && !/\bfrom\b/.test(q)) return pack("current_location", 0.96);

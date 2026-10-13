@@ -51,7 +51,8 @@ function renderInline(text: string, keyBase: string): ReactNode[] {
     } else if (match[9]) {
       const label = match[9];
       const digits = label.replace(/\D/g, "");
-      const href = digits === "918130464346" ? `https://wa.me/${digits}` : `tel:+${digits}`;
+      const whatsapp = /\bwhatsapp\b/i.test(text) && digits === "918130464346";
+      const href = whatsapp ? `https://wa.me/${digits}` : `tel:+${digits}`;
       const props = linkProps(href);
       nodes.push(props ? <a key={id} className="hero-signal-brief-link" {...props}>{label}</a> : label);
     }

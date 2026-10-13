@@ -2,7 +2,7 @@ import assert from "node:assert/strict";
 import test from "node:test";
 import { resolveAnswer } from "./chat-answer";
 import { normalizeQuestion } from "./chat-intent";
-import { enrichAnswerLinks, safeHref } from "./chat-links";
+import { enrichAnswerLinks, publicResumeUrl, safeHref } from "./chat-links";
 import { applyServerTurn, emptySession, parseSession, type ChatSession } from "./chat-memory";
 import type { ResolvedAnswer } from "./chat-answer";
 
@@ -267,6 +267,63 @@ test("project technology follow-ups stay on that project", () => {
   const tech = ask(session, "Which technologies are used?");
   assert.match(tech.result.body, /biometric|Whisper|LocalAuthentication|Ollama/i);
   assert.doesNotMatch(tech.result.body, /hasn't been confirmed/i);
+});
+
+test("education follow-ups resolve bachelor typos and the last university", () => {
+  const highest = ask(emptySession(), "Highest education?");
+  assert.match(highest.result.body, /M\.Tech in Artificial Intelligence/);
+  assert.match(highest.result.body, /B\.Tech in Electronics and Communication/);
+  assert.doesNotMatch(highest.result.body, /should be confirmed|hasn't been confirmed/i);
+
+  const bachelor = ask(highest.session, "bachelros?");
+  assert.equal(
+    bachelor.result.body,
+    "He completed his B.Tech in Electronics and Communication from Jamia Hamdard in 2019 with 70%.",
+  );
+  assert.equal(bachelor.result.entity, "B.Tech");
+  assert.doesNotMatch(bachelor.result.body, /should be confirmed|hasn't been confirmed/i);
+
+  assert.equal(ask(emptySession(), "undergraduate degree").result.body, bachelor.result.body);
+  assert.equal(ask(emptySession(), "UG qualification").result.body, bachelor.result.body);
+  assert.equal(ask(emptySession(), "college degree").result.body, bachelor.result.body);
+  assert.equal(ask(bachelor.session, "which university?").result.body, "Jamia Hamdard.");
+});
+
+test("certifications return verified portfolio records", () => {
+  for (const question of ["certifications", "certificates?", "courses", "credentials"]) {
+    const { result } = ask(emptySession(), question);
+    assert.equal(result.intent, "certifications");
+    assert.match(result.body, /Machine Learning\*\* — CETPA Infotech, November 2019/);
+    assert.match(result.body, /Machine Learning with Python\*\* — IBM · ExcelR Solutions, October 2023/);
+    assert.match(result.body, /Issuing organization is not recorded/);
+    assert.match(result.body, /Issuing organization and completion date are not recorded/);
+    assert.doesNotMatch(result.body, /hasn't been confirmed|should be confirmed/i);
+  }
+});
+
+test("research papers, phone, resume, location, and skills stay grounded", () => {
+  const papers = ask(emptySession(), "research papers");
+  assert.match(papers.result.body, /https:\/\/ieeexplore\.ieee\.org\/document\/10040365/);
+  assert.match(papers.result.body, /https:\/\/link\.springer\.com\/chapter\/10\.1007\/978-981-19-7402-1_26/);
+  assert.doesNotMatch(papers.result.body, /hasn't been confirmed/i);
+
+  const phone = ask(emptySession(), "mobile number");
+  assert.match(phone.result.body, /\[(\+91 81304 64346)\]\(tel:\+918130464346\)/);
+  assert.match(phone.result.body, /\[(\+91 99903 03070)\]\(tel:\+919990303070\)/);
+  assert.doesNotMatch(phone.result.body, /wa\.me/);
+
+  const whatsapp = ask(emptySession(), "whatsapp");
+  assert.match(whatsapp.result.body, /https:\/\/wa\.me\/918130464346/);
+  assert.doesNotMatch(whatsapp.result.body, /\b(call|tel:)/);
+
+  const resume = ask(emptySession(), "resume");
+  assert.match(resume.result.body, new RegExp(publicResumeUrl.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")));
+  assert.equal(safeHref("/resume/Rohit%20Gusain.pdf"), publicResumeUrl);
+  assert.equal(safeHref("http://localhost:3000/resume/Rohit%20Gusain.pdf"), publicResumeUrl);
+  assert.doesNotMatch(resume.result.body, /localhost|127\.0\.0\.1/);
+
+  assert.equal(ask(emptySession(), "where he lives").result.body, "He's currently based in Delhi, India.");
+  assert.match(ask(emptySession(), "skills").result.body, /AI solution planning/);
 });
 
 test("session memory keeps the last turns and intent", () => {
